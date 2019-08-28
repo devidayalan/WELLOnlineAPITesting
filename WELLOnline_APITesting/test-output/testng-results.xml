@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-27T12:14:17Z" name="Default suite" finished-at="2019-08-27T12:14:27Z" duration-ms="9366">
+    <groups>
+    </groups>
+    <test started-at="2019-08-27T12:14:17Z" name="Default test" finished-at="2019-08-27T12:14:27Z" duration-ms="9366">
+      <class name="com.autentication.testCases.SignInAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:17Z" name="setup" finished-at="2019-08-27T17:44:18Z" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:18Z" name="setValues" finished-at="2019-08-27T17:44:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method signature="testValidEmailPassword(java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:19Z" name="testValidEmailPassword" data-provider="ValidData" finished-at="2019-08-27T17:44:25Z" duration-ms="5511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wellv2testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[initpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEmailPassword -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:25Z" name="printLog" finished-at="2019-08-27T17:44:25Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="testValidEmailPassword(java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:25Z" name="testValidEmailPassword" data-provider="ValidData" finished-at="2019-08-27T17:44:27Z" duration-ms="1689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samreen@groupten.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samreen@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEmailPassword -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:27Z" name="printLog" finished-at="2019-08-27T17:44:27Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.autentication.testCases.SignInAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

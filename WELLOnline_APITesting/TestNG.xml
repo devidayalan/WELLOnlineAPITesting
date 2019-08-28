@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+<suite name="WELLOnlineAPISuite" >
+<listeners>
+	<listener class-name = "com.common.utils.ExtentTestNGIReporterListener" />
+</listeners>
+  <test name="AuthenticationAPITest" >
+    <classes>
+       <class name="com.autentication.testCases.SignInAPITest" />
+     <class name="com.autentication.testCases.RegisterAPITest" />
+  	<class name="com.autentication.testCases.ForgotPassAPITest" />
+     <class name="com.autentication.testCases.ResetPasswordAPITest" />    </classes>
+  </test>
+</suite>
