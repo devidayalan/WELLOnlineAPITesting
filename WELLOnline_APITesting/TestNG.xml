@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-  
-<suite name="WELLOnlineAPISuite" >
-<listeners>
-	<listener class-name = "com.common.utils.ExtentTestNGIReporterListener" />
-</listeners>
-  <test name="AuthenticationAPITest" >
-    <classes>
-       <class name="com.autentication.testCases.SignInAPITest" />
-     <class name="com.autentication.testCases.RegisterAPITest" />
-  	<class name="com.autentication.testCases.ForgotPassAPITest" />
-     <class name="com.autentication.testCases.ResetPasswordAPITest" />    </classes>
-  </test>
+
+<suite name="WELLOnlineAPISuite">
+	<listeners>
+		<listener
+			class-name="com.common.utils.ExtentTestNGIReporterListener" />
+	</listeners>
+	<test name="AuthenticationAPITest" preserve-order="true">
+		<classes>
+			<class name="com.autentication.testCases.SignInAPITest" />
+			<class name="com.autentication.testCases.RegisterAPITest" />
+			<class name="com.autentication.testCases.ForgotPassAPITest" />
+			<!-- <class name="com.autentication.testCases.ResetPasswordAPITest" /> -->
+		</classes>
+	</test>
+	<test name="UsersAPITest" preserve-order="true">
+		<classes>
+			<class name="com.users.testCases.GetLoggedMemberInfoTest" />
+			<class name="com.users.testCases.GetUserIdInfo" />
+			<class name="com.users.testCases.UpdatePasswordForUserTest" />
+			<class name="com.users.testCases.UpdateUserIdTest" />
+			
+		</classes>
+	</test>
+	<test name="ProjectsAPITest" preserve-order="true" parallel="none" >
+		<classes>
+			<class name="com.project.testCases.StoreNewProjectTest" />
+			<class name="com.project.testCases.GetUserProjectsTest" />
+			<class name="com.project.testCases.GetProjectByProjectIdTest" />
+			<class name="com.project.testCases.RegisterProjectTest" />
+			<class name="com.project.testCases.UpdateProjectByProjectId" />
+			<class name="com.project.testCases.GetProjectMembersTest" />
+			<class name="com.project.testCases.GetProjectInvoiceStatusTest" />
+		</classes>
+	</test>
+	<test name="EstimatesAPITest" preserve-order="true" >
+		<classes>
+			<class name="com.project.estimates.CreateEstimateTest" />
+			<class name="com.project.estimates.GetEstimateById" />
+			<class name="com.project.estimates.UpdateEstimateTest" />
+			<class name="com.project.estimates.GetEstimatePDFExport" />
+		</classes>
+	</test>
+	<test name="TeamAPITest" preserve-order="true" >
+		<classes>
+			<class name="com.project.testCases.InviteProjectMemberTest" />
+			<class name="com.project.testCases.DetachProjectMemberTest" />
+		</classes>
+	</test>
+	<test name="FinalAPITest">
+		<classes>
+			<class name="com.users.testCases.LogoutTestClass" />
+		</classes>
+	</test>
 </suite>

@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [WELLOnlineAPISuite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.common.utils.ExtentTestNGIReporterListener"/>
-  </listeners>
-  <test name="AuthenticationAPITest(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.autentication.testCases.ResetPasswordAPITest">
+      <class name="com.project.testCases.RegisterProjectTest">
         <methods>
-          <include name="testForgotPassword" invocation-numbers="0"/>
-          <include name="setValues"/>
+          <include name="registerProject"/>
+          <include name="printLog"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.autentication.testCases.ResetPasswordAPITest -->
-      <class name="com.autentication.testCases.RegisterAPITest">
-        <methods>
-          <include name="setup"/>
-          <include name="setValues"/>
-        </methods>
-      </class> <!-- com.autentication.testCases.RegisterAPITest -->
-      <class name="com.autentication.testCases.ForgotPassAPITest">
-        <methods>
-          <include name="setValues"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.autentication.testCases.ForgotPassAPITest -->
-      <class name="com.autentication.testCases.SignInAPITest">
-        <methods>
-          <include name="setValues"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.autentication.testCases.SignInAPITest -->
+      </class> <!-- com.project.testCases.RegisterProjectTest -->
     </classes>
-  </test> <!-- AuthenticationAPITest(failed) -->
-</suite> <!-- Failed suite [WELLOnlineAPISuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

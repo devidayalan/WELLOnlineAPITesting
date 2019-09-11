@@ -23,7 +23,7 @@ public class CustomDataProvider extends TestBase {
 	
 	return data;
 	}
-	//@DataProvider (name="InvalidData")
+	@DataProvider (name="InvalidData")
 		public Object [] [] readInvalidExcel() throws IOException {
 
 		int rownum = ExcelParserUtils.getRowCount(loginUserfile_path, LOGIN_INVALID_SHEET);
@@ -70,12 +70,12 @@ public class CustomDataProvider extends TestBase {
 		@DataProvider (name="emailId")
 		public Object [] [] readEmailExcel() throws IOException {
 
-		int rownum = ExcelParserUtils.getRowCount(loginUserfile_path, emailSheet);
-		int colCount = ExcelParserUtils.getCellCount(loginUserfile_path, emailSheet, 1);
+		int rownum = ExcelParserUtils.getRowCount(loginUserfile_path, emailListSheet);
+		int colCount = ExcelParserUtils.getCellCount(loginUserfile_path, emailListSheet, 1);
 		String data[][] = new String [rownum][colCount];
 		for(int i=1;i<=rownum;i++) {
 			for(int j=0; j<colCount;j++) {
-				data[i-1][j]= ExcelParserUtils.getCellData(loginUserfile_path, emailSheet, i, j);
+				data[i-1][j]= ExcelParserUtils.getCellData(loginUserfile_path, emailListSheet, i, j);
 			}
 		}
 		

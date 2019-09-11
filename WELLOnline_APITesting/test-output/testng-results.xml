@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-27T12:14:17Z" name="Default suite" finished-at="2019-08-27T12:14:27Z" duration-ms="9366">
+  <suite started-at="2019-09-11T11:59:01Z" name="WELLOnlineAPISuite" finished-at="2019-09-11T12:00:05Z" duration-ms="64082">
     <groups>
     </groups>
-    <test started-at="2019-08-27T12:14:17Z" name="Default test" finished-at="2019-08-27T12:14:27Z" duration-ms="9366">
+    <test started-at="2019-09-11T11:59:01Z" name="AuthenticationAPITest" finished-at="2019-09-11T11:59:22Z" duration-ms="21086">
       <class name="com.autentication.testCases.SignInAPITest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:17Z" name="setup" finished-at="2019-08-27T17:44:18Z" duration-ms="720" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:01Z" name="setup" finished-at="2019-09-11T17:29:03Z" duration-ms="2056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setValues()[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:18Z" name="setValues" finished-at="2019-08-27T17:44:18Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setValues -->
-        <test-method signature="testValidEmailPassword(java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:19Z" name="testValidEmailPassword" data-provider="ValidData" finished-at="2019-08-27T17:44:25Z" duration-ms="5511" status="PASS">
+        <test-method signature="testValidEmailPassword(java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:04Z" name="testValidEmailPassword" data-provider="ValidData" finished-at="2019-09-11T17:29:09Z" duration-ms="5201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidEmailPassword -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:25Z" name="printLog" finished-at="2019-08-27T17:44:25Z" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:09Z" name="printLog" finished-at="2019-09-11T17:29:09Z" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-        <test-method signature="testValidEmailPassword(java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:25Z" name="testValidEmailPassword" data-provider="ValidData" finished-at="2019-08-27T17:44:27Z" duration-ms="1689" status="PASS">
+        <test-method signature="testValidEmailPassword(java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:09Z" name="testValidEmailPassword" data-provider="ValidData" finished-at="2019-09-11T17:29:11Z" duration-ms="1609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,11 +47,393 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidEmailPassword -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@2aa5fe93]" started-at="2019-08-27T17:44:27Z" name="printLog" finished-at="2019-08-27T17:44:27Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:11Z" name="printLog" finished-at="2019-09-11T17:29:11Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="writeTokenForAuthenticatedUser()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:11Z" name="writeTokenForAuthenticatedUser" finished-at="2019-09-11T17:29:13Z" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTokenForAuthenticatedUser -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:13Z" name="printLog" finished-at="2019-09-11T17:29:13Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.autentication.testCases.SignInAPITest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.autentication.testCases.ForgotPassAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@37e547da]" started-at="2019-09-11T17:29:19Z" name="setup" finished-at="2019-09-11T17:29:19Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testForgotPass(java.lang.String)[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@37e547da]" started-at="2019-09-11T17:29:19Z" name="testForgotPass" data-provider="emailId" finished-at="2019-09-11T17:29:22Z" duration-ms="2505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wellv2testuser@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPass -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@37e547da]" started-at="2019-09-11T17:29:22Z" name="printLog" finished-at="2019-09-11T17:29:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.autentication.testCases.ForgotPassAPITest -->
+      <class name="com.autentication.testCases.RegisterAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:13Z" name="setup" finished-at="2019-09-11T17:29:13Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testExistingUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:14Z" name="testExistingUserRegistration" data-provider="UserData" finished-at="2019-09-11T17:29:15Z" duration-ms="1445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+wellv2testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[groupten]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExistingUserRegistration -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:15Z" name="printLog" finished-at="2019-09-11T17:29:15Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="testExistingUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:15Z" name="testExistingUserRegistration" data-provider="UserData" finished-at="2019-09-11T17:29:17Z" duration-ms="1408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samreen@groupten.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[groupten]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samreen]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Adil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExistingUserRegistration -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:17Z" name="printLog" finished-at="2019-09-11T17:29:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="testUserRegistration()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:17Z" name="testUserRegistration" finished-at="2019-09-11T17:29:19Z" duration-ms="2339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:19Z" name="printLog" finished-at="2019-09-11T17:29:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.autentication.testCases.RegisterAPITest -->
+    </test> <!-- AuthenticationAPITest -->
+    <test started-at="2019-09-11T11:59:22Z" name="UsersAPITest" finished-at="2019-09-11T11:59:30Z" duration-ms="8385">
+      <class name="com.users.testCases.GetLoggedMemberInfoTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@13c10b87]" started-at="2019-09-11T17:29:22Z" name="setup" finished-at="2019-09-11T17:29:22Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUserMemberInfo()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@13c10b87]" started-at="2019-09-11T17:29:22Z" name="testUserMemberInfo" finished-at="2019-09-11T17:29:24Z" duration-ms="1864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserMemberInfo -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@13c10b87]" started-at="2019-09-11T17:29:24Z" name="printLog" finished-at="2019-09-11T17:29:24Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.users.testCases.GetLoggedMemberInfoTest -->
+      <class name="com.users.testCases.GetUserIdInfo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.GetUserIdInfo@6a01e23]" started-at="2019-09-11T17:29:24Z" name="setup" finished-at="2019-09-11T17:29:24Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUserInfo()[pri:0, instance:com.users.testCases.GetUserIdInfo@6a01e23]" started-at="2019-09-11T17:29:24Z" name="getUserInfo" finished-at="2019-09-11T17:29:25Z" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfo -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.GetUserIdInfo@6a01e23]" started-at="2019-09-11T17:29:25Z" name="printLog" finished-at="2019-09-11T17:29:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.users.testCases.GetUserIdInfo -->
+      <class name="com.users.testCases.UpdateUserIdTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:27Z" name="setup" finished-at="2019-09-11T17:29:27Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateUserIdInfo()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:27Z" name="updateUserIdInfo" finished-at="2019-09-11T17:29:29Z" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserIdInfo -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:29Z" name="printLog" finished-at="2019-09-11T17:29:29Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="updateUserIdOptionalInfo()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:29Z" name="updateUserIdOptionalInfo" finished-at="2019-09-11T17:29:30Z" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserIdOptionalInfo -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:30Z" name="printLog" finished-at="2019-09-11T17:29:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.users.testCases.UpdateUserIdTest -->
+      <class name="com.users.testCases.UpdatePasswordForUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@5a955565]" started-at="2019-09-11T17:29:25Z" name="setup" finished-at="2019-09-11T17:29:25Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updatePassword()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@5a955565]" started-at="2019-09-11T17:29:25Z" name="updatePassword" finished-at="2019-09-11T17:29:27Z" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePassword -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@5a955565]" started-at="2019-09-11T17:29:27Z" name="printLog" finished-at="2019-09-11T17:29:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.users.testCases.UpdatePasswordForUserTest -->
+    </test> <!-- UsersAPITest -->
+    <test started-at="2019-09-11T11:59:30Z" name="ProjectsAPITest" finished-at="2019-09-11T11:59:49Z" duration-ms="18477">
+      <class name="com.project.testCases.StoreNewProjectTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.StoreNewProjectTest@2805c96b]" started-at="2019-09-11T17:29:30Z" name="setup" finished-at="2019-09-11T17:29:30Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="storeProject()[pri:0, instance:com.project.testCases.StoreNewProjectTest@2805c96b]" started-at="2019-09-11T17:29:30Z" name="storeProject" finished-at="2019-09-11T17:29:35Z" duration-ms="4793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeProject -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.StoreNewProjectTest@2805c96b]" started-at="2019-09-11T17:29:35Z" name="printLog" finished-at="2019-09-11T17:29:35Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.StoreNewProjectTest -->
+      <class name="com.project.testCases.UpdateProjectByProjectId">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@5db250b4]" started-at="2019-09-11T17:29:43Z" name="setup" finished-at="2019-09-11T17:29:43Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateProject()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@5db250b4]" started-at="2019-09-11T17:29:43Z" name="updateProject" finished-at="2019-09-11T17:29:45Z" duration-ms="2531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProject -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@5db250b4]" started-at="2019-09-11T17:29:45Z" name="printLog" finished-at="2019-09-11T17:29:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateProjectByProjectId -->
+      <class name="com.project.testCases.GetProjectInvoiceStatusTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@38c5cc4c]" started-at="2019-09-11T17:29:47Z" name="setup" finished-at="2019-09-11T17:29:47Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProjectInvoice()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@38c5cc4c]" started-at="2019-09-11T17:29:47Z" name="getProjectInvoice" finished-at="2019-09-11T17:29:49Z" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectInvoice -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@38c5cc4c]" started-at="2019-09-11T17:29:49Z" name="printLog" finished-at="2019-09-11T17:29:49Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetProjectInvoiceStatusTest -->
+      <class name="com.project.testCases.RegisterProjectTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.RegisterProjectTest@5bfa9431]" started-at="2019-09-11T17:29:39Z" name="setup" finished-at="2019-09-11T17:29:39Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerProject()[pri:0, instance:com.project.testCases.RegisterProjectTest@5bfa9431]" started-at="2019-09-11T17:29:39Z" name="registerProject" finished-at="2019-09-11T17:29:43Z" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerProject -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.RegisterProjectTest@5bfa9431]" started-at="2019-09-11T17:29:43Z" name="printLog" finished-at="2019-09-11T17:29:43Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.RegisterProjectTest -->
+      <class name="com.project.testCases.GetProjectByProjectIdTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@2fd6b6c7]" started-at="2019-09-11T17:29:37Z" name="setup" finished-at="2019-09-11T17:29:37Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getprojectById()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@2fd6b6c7]" started-at="2019-09-11T17:29:37Z" name="getprojectById" finished-at="2019-09-11T17:29:39Z" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getprojectById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@2fd6b6c7]" started-at="2019-09-11T17:29:39Z" name="printLog" finished-at="2019-09-11T17:29:39Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetProjectByProjectIdTest -->
+      <class name="com.project.testCases.GetUserProjectsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetUserProjectsTest@184cf7cf]" started-at="2019-09-11T17:29:35Z" name="setup" finished-at="2019-09-11T17:29:35Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUserProjects()[pri:0, instance:com.project.testCases.GetUserProjectsTest@184cf7cf]" started-at="2019-09-11T17:29:35Z" name="getUserProjects" finished-at="2019-09-11T17:29:37Z" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProjects -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetUserProjectsTest@184cf7cf]" started-at="2019-09-11T17:29:37Z" name="printLog" finished-at="2019-09-11T17:29:37Z" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetUserProjectsTest -->
+      <class name="com.project.testCases.GetProjectMembersTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectMembersTest@223f3642]" started-at="2019-09-11T17:29:45Z" name="setup" finished-at="2019-09-11T17:29:45Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProjectMembers()[pri:0, instance:com.project.testCases.GetProjectMembersTest@223f3642]" started-at="2019-09-11T17:29:45Z" name="getProjectMembers" finished-at="2019-09-11T17:29:47Z" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectMembers -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectMembersTest@223f3642]" started-at="2019-09-11T17:29:47Z" name="printLog" finished-at="2019-09-11T17:29:47Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetProjectMembersTest -->
+    </test> <!-- ProjectsAPITest -->
+    <test started-at="2019-09-11T11:59:49Z" name="EstimatesAPITest" finished-at="2019-09-11T11:59:56Z" duration-ms="7579">
+      <class name="com.project.estimates.GetEstimatePDFExport">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@45018215]" started-at="2019-09-11T17:29:54Z" name="setup" finished-at="2019-09-11T17:29:54Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getEstimatePDF()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@45018215]" started-at="2019-09-11T17:29:54Z" name="getEstimatePDF" finished-at="2019-09-11T17:29:56Z" duration-ms="2305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEstimatePDF -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@45018215]" started-at="2019-09-11T17:29:56Z" name="printLog" finished-at="2019-09-11T17:29:56Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.estimates.GetEstimatePDFExport -->
+      <class name="com.project.estimates.GetEstimateById">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.GetEstimateById@7b227d8d]" started-at="2019-09-11T17:29:51Z" name="setup" finished-at="2019-09-11T17:29:51Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getEstimateById()[pri:0, instance:com.project.estimates.GetEstimateById@7b227d8d]" started-at="2019-09-11T17:29:51Z" name="getEstimateById" finished-at="2019-09-11T17:29:52Z" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEstimateById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.GetEstimateById@7b227d8d]" started-at="2019-09-11T17:29:52Z" name="printLog" finished-at="2019-09-11T17:29:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.estimates.GetEstimateById -->
+      <class name="com.project.estimates.UpdateEstimateTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.UpdateEstimateTest@7219ec67]" started-at="2019-09-11T17:29:52Z" name="setup" finished-at="2019-09-11T17:29:52Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateEstimatebyEstimateId()[pri:0, instance:com.project.estimates.UpdateEstimateTest@7219ec67]" started-at="2019-09-11T17:29:52Z" name="updateEstimatebyEstimateId" finished-at="2019-09-11T17:29:54Z" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEstimatebyEstimateId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.UpdateEstimateTest@7219ec67]" started-at="2019-09-11T17:29:54Z" name="printLog" finished-at="2019-09-11T17:29:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.estimates.UpdateEstimateTest -->
+      <class name="com.project.estimates.CreateEstimateTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.CreateEstimateTest@4c1d9d4b]" started-at="2019-09-11T17:29:49Z" name="setup" finished-at="2019-09-11T17:29:49Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createEstimate()[pri:0, instance:com.project.estimates.CreateEstimateTest@4c1d9d4b]" started-at="2019-09-11T17:29:49Z" name="createEstimate" finished-at="2019-09-11T17:29:51Z" duration-ms="1854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEstimate -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.CreateEstimateTest@4c1d9d4b]" started-at="2019-09-11T17:29:51Z" name="printLog" finished-at="2019-09-11T17:29:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.estimates.CreateEstimateTest -->
+    </test> <!-- EstimatesAPITest -->
+    <test started-at="2019-09-11T11:59:56Z" name="TeamAPITest" finished-at="2019-09-11T12:00:03Z" duration-ms="6965">
+      <class name="com.project.testCases.DetachProjectMemberTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.DetachProjectMemberTest@6973bf95]" started-at="2019-09-11T17:30:02Z" name="setup" finished-at="2019-09-11T17:30:02Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="detachProjectMember()[pri:0, instance:com.project.testCases.DetachProjectMemberTest@6973bf95]" started-at="2019-09-11T17:30:02Z" name="detachProjectMember" finished-at="2019-09-11T17:30:03Z" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detachProjectMember -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.DetachProjectMemberTest@6973bf95]" started-at="2019-09-11T17:30:03Z" name="printLog" finished-at="2019-09-11T17:30:03Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.DetachProjectMemberTest -->
+      <class name="com.project.testCases.InviteProjectMemberTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:29:56Z" name="setup" finished-at="2019-09-11T17:29:56Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="inviteMember()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:29:56Z" name="inviteMember" finished-at="2019-09-11T17:29:59Z" duration-ms="2551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inviteMember -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:29:59Z" name="printLog" finished-at="2019-09-11T17:29:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="assertInvitedMember()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:29:59Z" name="assertInvitedMember" finished-at="2019-09-11T17:30:02Z" depends-on-methods="com.project.testCases.InviteProjectMemberTest.inviteMember" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertInvitedMember -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:30:02Z" name="printLog" finished-at="2019-09-11T17:30:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.InviteProjectMemberTest -->
+    </test> <!-- TeamAPITest -->
+    <test started-at="2019-09-11T12:00:03Z" name="FinalAPITest" finished-at="2019-09-11T12:00:05Z" duration-ms="1508">
+      <class name="com.users.testCases.LogoutTestClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.LogoutTestClass@4445629]" started-at="2019-09-11T17:30:03Z" name="setup" finished-at="2019-09-11T17:30:03Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoutTest()[pri:0, instance:com.users.testCases.LogoutTestClass@4445629]" started-at="2019-09-11T17:30:03Z" name="logoutTest" finished-at="2019-09-11T17:30:05Z" duration-ms="1488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.LogoutTestClass@4445629]" started-at="2019-09-11T17:30:05Z" name="printLog" finished-at="2019-09-11T17:30:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.users.testCases.LogoutTestClass -->
+    </test> <!-- FinalAPITest -->
+  </suite> <!-- WELLOnlineAPISuite -->
 </testng-results>

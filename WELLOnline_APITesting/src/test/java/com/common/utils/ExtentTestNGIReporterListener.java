@@ -79,6 +79,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
                 
                 test.getModel().setStartTime(getTime(result.getStartMillis()));
                 test.getModel().setEndTime(getTime(result.getEndMillis()));
+                test.getModel().getRunDuration();
             }
         }
     }

@@ -1,5 +1,6 @@
 package com.common.base;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Level;
@@ -11,6 +12,8 @@ import org.testng.annotations.BeforeClass;
 
 import com.authentication.utils.LoginUtils;
 import com.aventstack.extentreports.ExtentTest;
+import com.common.utils.BaseUtils;
+import com.common.utils.ExcelParserUtils;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -26,11 +29,17 @@ public class TestBase {
 	public static final String LOGIN_INVALID_SHEET = "invalid_Login";
 	public static final String loginUserfile_path = System.getProperty("user.dir")
 			+ "/src/test/resources/TestData.xlsx";
+	public static final String pdf_path = System.getProperty("user.dir")
+			+ "/output";
 	public static final String existngUserSheet = "Existing_users";
+	public static final String UsersSheet = "Users";
+	public static final String estimateSheet = "Projects";
 	public static final String emailSheet = "emails";
 	public static final String tokenSheet = "verifyToken";
-	public static final String setDataSheet = "SetToken";
-	
+	public static final String emailListSheet = "email_list";
+	public static String username;
+    public static String password;
+    public static String role;
 	public static final String sheetName = "TestValues";
 	public static int rowNumOne=1;
     public static int rowNumTwo=2;
@@ -38,16 +47,21 @@ public class TestBase {
     public static int rowNumFour=4;
     public static int rowNumFive=5;
     public static String email;
-    public static String password;
     public String header;
+    public String projectId;
     public LoginUtils loginUtil = new LoginUtils();
     public static Logger logger;
     public static ExtentTest test;
     public static ExtentTest testlog;
 	public Response res;
+	public BaseUtils dataUtil = new BaseUtils();
+	public int userid;
+	public String token;
+	public String estimateId;
+	public String projectsIdForEstimate;
 	
 	@BeforeClass
-	public void setup() {
+	public void setup() throws IOException {
 
 		RestAssured.baseURI = "https://test-v2-api.wellcertified.com/api/";
 	
@@ -56,22 +70,19 @@ public class TestBase {
 		 PropertyConfigurator.configure(System.getProperty("user.dir")
 					+ "/src/test/resources/log4j.properties");
 		 logger.setLevel(Level.DEBUG);
+		 header = ExcelParserUtils.getSingleCellData(loginUserfile_path, UsersSheet, "Token", 2);
 		
 	}
 	
-	@AfterMethod
+
+	@AfterMethod 
 	public void printLog() {
-		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-		System.out.println("methodname is"+methodName);
-		
 		long responsetime = res.getTimeIn(TimeUnit.MILLISECONDS);
-		
 		logger.info("Response Time: "+responsetime);
 		logger.info(res.getDetailedCookies());
-		logger.info("Verifies response from API::"+methodName+"::" + res.asString());
+		logger.info("Verifies response from API::"+ res.asString());
 
 		
 	}
-	
 	
 }

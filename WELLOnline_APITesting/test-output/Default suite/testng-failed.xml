@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.autentication.testCases.SignInAPITest">
+      <class name="com.project.testCases.RegisterProjectTest">
         <methods>
-          <include name="testValidEmailPassword" invocation-numbers="0 1"/>
-          <include name="setValues"/>
+          <include name="registerProject"/>
+          <include name="printLog"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.autentication.testCases.SignInAPITest -->
+      </class> <!-- com.project.testCases.RegisterProjectTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

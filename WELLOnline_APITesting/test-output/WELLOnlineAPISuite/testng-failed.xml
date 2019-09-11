@@ -4,33 +4,252 @@
   <listeners>
     <listener class-name="com.common.utils.ExtentTestNGIReporterListener"/>
   </listeners>
-  <test name="AuthenticationAPITest(failed)">
+  <test name="ProjectsAPITest(failed)">
     <classes>
-      <class name="com.autentication.testCases.ResetPasswordAPITest">
+      <class name="com.project.testCases.RegisterProjectTest">
         <methods>
-          <include name="testForgotPassword" invocation-numbers="0"/>
-          <include name="setValues"/>
+          <include name="registerProject"/>
+          <include name="printLog"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.autentication.testCases.ResetPasswordAPITest -->
+      </class> <!-- com.project.testCases.RegisterProjectTest -->
+      <class name="com.users.testCases.LogoutTestClass">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.LogoutTestClass -->
+      <class name="com.project.estimates.GetEstimatePDFExport">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.estimates.GetEstimatePDFExport -->
+      <class name="com.project.estimates.CreateEstimateTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.estimates.CreateEstimateTest -->
+      <class name="com.users.testCases.GetLoggedMemberInfoTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.GetLoggedMemberInfoTest -->
       <class name="com.autentication.testCases.RegisterAPITest">
         <methods>
+          <include name="printLog"/>
           <include name="setup"/>
-          <include name="setValues"/>
         </methods>
       </class> <!-- com.autentication.testCases.RegisterAPITest -->
-      <class name="com.autentication.testCases.ForgotPassAPITest">
+      <class name="com.project.testCases.GetProjectByProjectIdTest">
         <methods>
-          <include name="setValues"/>
+          <include name="printLog"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.autentication.testCases.ForgotPassAPITest -->
+      </class> <!-- com.project.testCases.GetProjectByProjectIdTest -->
+      <class name="com.project.testCases.DetachProjectMemberTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.DetachProjectMemberTest -->
+      <class name="com.project.testCases.GetProjectInvoiceStatusTest">
+        <methods>
+          <include name="getProjectInvoice"/>
+        </methods>
+      </class> <!-- com.project.testCases.GetProjectInvoiceStatusTest -->
+      <class name="com.project.testCases.GetUserProjectsTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.GetUserProjectsTest -->
+      <class name="com.project.testCases.GetProjectMembersTest">
+        <methods>
+          <include name="getProjectMembers"/>
+        </methods>
+      </class> <!-- com.project.testCases.GetProjectMembersTest -->
       <class name="com.autentication.testCases.SignInAPITest">
         <methods>
-          <include name="setValues"/>
+          <include name="printLog"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.autentication.testCases.SignInAPITest -->
+      <class name="com.users.testCases.UpdatePasswordForUserTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.UpdatePasswordForUserTest -->
+      <class name="com.project.testCases.StoreNewProjectTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.StoreNewProjectTest -->
+      <class name="com.users.testCases.UpdateUserIdTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.UpdateUserIdTest -->
+      <class name="com.project.testCases.UpdateProjectByProjectId">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.UpdateProjectByProjectId -->
+      <class name="com.users.testCases.GetUserIdInfo">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.GetUserIdInfo -->
+      <class name="com.autentication.testCases.ForgotPassAPITest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.autentication.testCases.ForgotPassAPITest -->
+      <class name="com.project.estimates.UpdateEstimateTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.estimates.UpdateEstimateTest -->
+      <class name="com.project.estimates.GetEstimateById">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.estimates.GetEstimateById -->
+      <class name="com.project.testCases.InviteProjectMemberTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.InviteProjectMemberTest -->
     </classes>
-  </test> <!-- AuthenticationAPITest(failed) -->
+  </test> <!-- ProjectsAPITest(failed) -->
+  <test name="TeamAPITest(failed)">
+    <classes>
+      <class name="com.users.testCases.LogoutTestClass">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.LogoutTestClass -->
+      <class name="com.project.testCases.RegisterProjectTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.RegisterProjectTest -->
+      <class name="com.project.estimates.GetEstimatePDFExport">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.estimates.GetEstimatePDFExport -->
+      <class name="com.project.estimates.CreateEstimateTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.estimates.CreateEstimateTest -->
+      <class name="com.users.testCases.GetLoggedMemberInfoTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.GetLoggedMemberInfoTest -->
+      <class name="com.autentication.testCases.RegisterAPITest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.autentication.testCases.RegisterAPITest -->
+      <class name="com.project.testCases.GetProjectByProjectIdTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.GetProjectByProjectIdTest -->
+      <class name="com.project.testCases.DetachProjectMemberTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="detachProjectMember"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.DetachProjectMemberTest -->
+      <class name="com.project.testCases.GetUserProjectsTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.GetUserProjectsTest -->
+      <class name="com.autentication.testCases.SignInAPITest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.autentication.testCases.SignInAPITest -->
+      <class name="com.users.testCases.UpdatePasswordForUserTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.UpdatePasswordForUserTest -->
+      <class name="com.project.testCases.StoreNewProjectTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.StoreNewProjectTest -->
+      <class name="com.users.testCases.UpdateUserIdTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.UpdateUserIdTest -->
+      <class name="com.project.testCases.UpdateProjectByProjectId">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.UpdateProjectByProjectId -->
+      <class name="com.users.testCases.GetUserIdInfo">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.users.testCases.GetUserIdInfo -->
+      <class name="com.autentication.testCases.ForgotPassAPITest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.autentication.testCases.ForgotPassAPITest -->
+      <class name="com.project.estimates.UpdateEstimateTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.estimates.UpdateEstimateTest -->
+      <class name="com.project.estimates.GetEstimateById">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.estimates.GetEstimateById -->
+      <class name="com.project.testCases.InviteProjectMemberTest">
+        <methods>
+          <include name="printLog"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project.testCases.InviteProjectMemberTest -->
+    </classes>
+  </test> <!-- TeamAPITest(failed) -->
 </suite> <!-- Failed suite [WELLOnlineAPISuite] -->

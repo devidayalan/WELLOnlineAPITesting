@@ -1,7 +1,7 @@
-package com.authentication.utils;
+package com.common.utils;
 
 import org.apache.commons.lang3.RandomStringUtils;
-public class RegisterUtils {
+public class GenerateRandomTestDataUtils {
 	
 
 	public static String getEmail() {
@@ -10,7 +10,7 @@ public class RegisterUtils {
 		
 	}
 	public static String getOrganization() {
-		String randomString = RandomStringUtils.randomAlphabetic(1);
+		String randomString = RandomStringUtils.randomNumeric(3);
 		return "testcompany"+randomString;
 		
 	}
@@ -20,8 +20,18 @@ public class RegisterUtils {
 		
 	}
 	public static String getLastName() {
-		String randomString = RandomStringUtils.randomAlphabetic(2);
+		String randomString = RandomStringUtils.randomNumeric(3);
 		return "user"+ randomString;
+		
+	}
+	public static String getProjectName() {
+		String randomString = RandomStringUtils.randomNumeric(3);
+		return "Test Project"+ randomString;
+		
+	}
+	public static String getNumeric() {
+		String randomString = RandomStringUtils.randomNumeric(3);
+		return  randomString;
 		
 	}
 
