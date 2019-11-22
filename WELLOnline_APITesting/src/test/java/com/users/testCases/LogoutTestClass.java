@@ -24,7 +24,8 @@ public class LogoutTestClass extends TestBase{
 					.then()
 					.statusCode(STATUS_200)
 					.extract().response();
-		
+		//ExcelParserUtils.setCellData(estimatefile_path, estimateList, 1, 2, "0");
+		//ExcelParserUtils.setCellData(estimatefile_path, estimateList, 1, 3, "0");
 		//ExcelParserUtils.setCellData(loginUserfile_path, setDataSheet, 1, 0, "0");
 		}
 

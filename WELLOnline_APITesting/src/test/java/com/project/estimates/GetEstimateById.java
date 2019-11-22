@@ -13,7 +13,7 @@ public class GetEstimateById extends TestBase {
 	
 	@Test
 	public void getEstimateById() throws IOException {
-		estimateId = ExcelParserUtils.getSingleCellData(loginUserfile_path, estimateSheet, "Estimate ID", 2);
+		estimateId =  ExcelParserUtils.getSingleCellData(loginUserfile_path, estimateSheet, "Estimate ID", 2);
 		res =
 				given()
 				.pathParam("estimate_id", estimateId)

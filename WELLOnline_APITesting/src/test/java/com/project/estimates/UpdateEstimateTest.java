@@ -51,7 +51,7 @@ public class UpdateEstimateTest extends TestBase {
 			updateData.put("projects", projArr);
 			String jsonString = updateData.toJSONString();
 			
-			System.out.println("final json string"+jsonString);
+			
 		res =
 				given()
 				.contentType("application/json")

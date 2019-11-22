@@ -34,6 +34,33 @@ public class GenerateRandomTestDataUtils {
 		return  randomString;
 		
 	}
+	public static String getPostalcode() {
+		String randomString = RandomStringUtils.randomNumeric(6);
+		return  randomString;
+		
+	}
+	public static String getTestString() {
+		String randomString = RandomStringUtils.randomAlphabetic(5);
+		return "Test"+ randomString;
+		
+	}
+	public static String getPhone() {
+		String randomString = RandomStringUtils.randomNumeric(10);
+		return  randomString;
+		
+	}
+	
+	public static String getPortfolioName() {
+		String randomString = RandomStringUtils.randomNumeric(3);
+		return "Test Portfolio"+ randomString;
+		
+	}
+	
+	public static String getSubsetName() {
+		String randomString = RandomStringUtils.randomNumeric(3);
+		return "TestSubset"+ randomString;
+		
+	}
 
 }
 

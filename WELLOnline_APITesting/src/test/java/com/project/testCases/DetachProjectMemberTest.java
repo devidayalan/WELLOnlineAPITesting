@@ -14,10 +14,10 @@ public class DetachProjectMemberTest extends TestBase {
 	
 	public void detachProjectMember() throws IOException {
 		projectId = ExcelParserUtils.getSingleCellData(loginUserfile_path, UsersSheet, "ProjectId", 2);
-		String usrid = ExcelParserUtils.getSingleCellData(loginUserfile_path, emailSheet, "userid", 3);
+		String usrid = ExcelParserUtils.getSingleCellData(loginUserfile_path, emailSheet, "userid", 2);
 		res =
 				given()
-				.header("Authorization", header)
+				.header("Authorization", admin_Header)
 				.pathParam("project_id", projectId)
 				.pathParam("user_id", usrid)
 				

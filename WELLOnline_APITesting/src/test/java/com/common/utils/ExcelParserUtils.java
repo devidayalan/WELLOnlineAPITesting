@@ -88,6 +88,22 @@ public class ExcelParserUtils {
 		fo.close();
 	}
 	
+	public static void setIntCellData(String xlfile,String xlsheet,int rownum,int colnum,int data) throws IOException
+	{
+		fi=new FileInputStream(xlfile);
+		wb=new XSSFWorkbook(fi);
+		ws=wb.getSheet(xlsheet);
+		row=ws.getRow(rownum);
+		cell=row.createCell(colnum);
+		cell.setCellValue(data);
+		cell.setCellValue((Integer)data); 
+		fo=new FileOutputStream(xlfile);
+		wb.write(fo);		
+		wb.close();
+		fi.close();
+		fo.close();
+	}
+	
 	
 	//give total row minus 1 in this
 	//readRandomCellData

@@ -4,6 +4,7 @@ import static io.restassured.RestAssured.given;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.common.base.TestBase;
@@ -25,7 +26,15 @@ public class GetProjectByProjectIdTest extends TestBase {
 						.log().body()
 						.extract().response();
 		String countryId = res.path("country_id").toString();
+		String project_type = res.path("project_type").toString();
+		String name = res.path("name").toString();
+		String version = res.path("applicable_version_id").toString();
+	
+		
 		ExcelParserUtils.setCellData(loginUserfile_path, UsersSheet, 1, 6, countryId);
+		ExcelParserUtils.setCellData(loginUserfile_path, scoreCardSheet, 1, 1, project_type);
+		ExcelParserUtils.setCellData(loginUserfile_path, scoreCardSheet, 1, 0, name);
+		ExcelParserUtils.setCellData(loginUserfile_path, scoreCardSheet, 1, 3, version);
 	}
 	
 

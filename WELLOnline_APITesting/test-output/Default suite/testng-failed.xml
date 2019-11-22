@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.project.testCases.RegisterProjectTest">
+      <class name="com.portfolio.testCases.UpdatePortfolioSubsetByIdTests">
         <methods>
-          <include name="registerProject"/>
+          <include name="updatePortfolioSubsetById"/>
           <include name="printLog"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.project.testCases.RegisterProjectTest -->
+      </class> <!-- com.portfolio.testCases.UpdatePortfolioSubsetByIdTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

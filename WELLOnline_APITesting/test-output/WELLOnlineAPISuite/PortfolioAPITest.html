@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>TestNG:  PortfolioAPITest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PortfolioAPITest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 22 12:47:09 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>111 seconds (111971 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.portfolio.testCases.AddDocumentToPortfolioTests.addDocumentToPortfolio()'><b>addDocumentToPortfolio</b><br>Test class: com.portfolio.testCases.AddDocumentToPortfolioTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.AddDocumentToPortfolioTests@2e005c4b</td></tr>
+<tr>
+<td title='com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests.addMultipleSQFTPropertiesToPortfolio()'><b>addMultipleSQFTPropertiesToPortfolio</b><br>Test class: com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests</td>
+<td></td>
+<td>16</td>
+<td>com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests@359f7cdf</td></tr>
+<tr>
+<td title='com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests.addMultipleSQMPropertiesToPortfolio()'><b>addMultipleSQMPropertiesToPortfolio</b><br>Test class: com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests</td>
+<td></td>
+<td>6</td>
+<td>com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests@359f7cdf</td></tr>
+<tr>
+<td title='com.portfolio.testCases.AddNoteToPortfolioTests.addNoteToPortfolio()'><b>addNoteToPortfolio</b><br>Test class: com.portfolio.testCases.AddNoteToPortfolioTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.AddNoteToPortfolioTests@5af3afd9</td></tr>
+<tr>
+<td title='com.portfolio.testCases.AddProjectsToPortfolioTests.addProjectsToPortfolio()'><b>addProjectsToPortfolio</b><br>Test class: com.portfolio.testCases.AddProjectsToPortfolioTests</td>
+<td></td>
+<td>3</td>
+<td>com.portfolio.testCases.AddProjectsToPortfolioTests@4f18837a</td></tr>
+<tr>
+<td title='com.portfolio.testCases.AnalyzePortfolioScoreByScorecardIdTests.analyzePortfolioScoreByScorecardId()'><b>analyzePortfolioScoreByScorecardId</b><br>Test class: com.portfolio.testCases.AnalyzePortfolioScoreByScorecardIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.AnalyzePortfolioScoreByScorecardIdTests@7c729a55</td></tr>
+<tr>
+<td title='com.portfolio.testCases.CreateSubsetByPortfolioIdTests.createSubsetByPortfolioId()'><b>createSubsetByPortfolioId</b><br>Test class: com.portfolio.testCases.CreateSubsetByPortfolioIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.CreateSubsetByPortfolioIdTests@4fb61f4a</td></tr>
+<tr>
+<td title='com.portfolio.testCases.DeletePortfolioDocByDocIdTests.deletePortfolioDocByDocId()'><b>deletePortfolioDocByDocId</b><br>Test class: com.portfolio.testCases.DeletePortfolioDocByDocIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.DeletePortfolioDocByDocIdTests@6379eb</td></tr>
+<tr>
+<td title='com.portfolio.testCases.DeletePortfolioNoteByIdTests.deletePortfolioNoteById()'><b>deletePortfolioNoteById</b><br>Test class: com.portfolio.testCases.DeletePortfolioNoteByIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.DeletePortfolioNoteByIdTests@294425a7</td></tr>
+<tr>
+<td title='com.portfolio.testCases.DownloadPortfolioScorecardTests.downloadPortfolioScorecard()'><b>downloadPortfolioScorecard</b><br>Test class: com.portfolio.testCases.DownloadPortfolioScorecardTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.DownloadPortfolioScorecardTests@3bb9a3ff</td></tr>
+<tr>
+<td title='com.portfolio.testCases.FilterScorecardByConcept.filterScorecardByConcept()'><b>filterScorecardByConcept</b><br>Test class: com.portfolio.testCases.FilterScorecardByConcept</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.FilterScorecardByConcept@6aba2b86</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetScorecardConceptPhaseSummaryTests.filterScorecardByConcept()'><b>filterScorecardByConcept</b><br>Test class: com.portfolio.testCases.GetScorecardConceptPhaseSummaryTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetScorecardConceptPhaseSummaryTests@74e52303</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetAllDcoumentsByPortfolioIdTests.getAllDocumentsByPortfolioId()'><b>getAllDocumentsByPortfolioId</b><br>Test class: com.portfolio.testCases.GetAllDcoumentsByPortfolioIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetAllDcoumentsByPortfolioIdTests@6356695f</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetAllNotesByPortfolioIdTests.getAllNotesByPortfolioId()'><b>getAllNotesByPortfolioId</b><br>Test class: com.portfolio.testCases.GetAllNotesByPortfolioIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetAllNotesByPortfolioIdTests@694abbdc</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioByIdTests.getPortfolioById()'><b>getPortfolioById</b><br>Test class: com.portfolio.testCases.GetPortfolioByIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPortfolioByIdTests@6e20b53a</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioDocumentByIdTests.getPortfolioDocumentById()'><b>getPortfolioDocumentById</b><br>Test class: com.portfolio.testCases.GetPortfolioDocumentByIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPortfolioDocumentByIdTests@4567f35d</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioInvoiceTests.getPortfolioInvoices()'><b>getPortfolioInvoices</b><br>Test class: com.portfolio.testCases.GetPortfolioInvoiceTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPortfolioInvoiceTests@8dbdac1</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPorfolioMembersTests.getPortfolioMembers()'><b>getPortfolioMembers</b><br>Test class: com.portfolio.testCases.GetPorfolioMembersTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPorfolioMembersTests@661972b0</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioNoteByNoteIdTests.getPortfolioNoteByNoteId()'><b>getPortfolioNoteByNoteId</b><br>Test class: com.portfolio.testCases.GetPortfolioNoteByNoteIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPortfolioNoteByNoteIdTests@323b36e0</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetProjectLocationsTests.getPortfolioProjectLocations()'><b>getPortfolioProjectLocations</b><br>Test class: com.portfolio.testCases.GetProjectLocationsTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetProjectLocationsTests@4f6ee6e4</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioProjectSummaryTests.getPortfolioProjectSummary()'><b>getPortfolioProjectSummary</b><br>Test class: com.portfolio.testCases.GetPortfolioProjectSummaryTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPortfolioProjectSummaryTests@a514af7</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioSubsetByIdTests.getPortfolioSubsetById()'><b>getPortfolioSubsetById</b><br>Test class: com.portfolio.testCases.GetPortfolioSubsetByIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPortfolioSubsetByIdTests@79924b</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioSubsetsTests.getPortfolioSubsets()'><b>getPortfolioSubsets</b><br>Test class: com.portfolio.testCases.GetPortfolioSubsetsTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPortfolioSubsetsTests@4fb0f2b9</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioWizardProjectsTests.getPortfolioWizardProjects()'><b>getPortfolioWizardProjects</b><br>Test class: com.portfolio.testCases.GetPortfolioWizardProjectsTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.GetPortfolioWizardProjectsTests@6b927fb</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetPortfolioWizardsSummaryTests.getPortfolioWizardsSummary()'><b>getPortfolioWizardsSummary</b><br>Test class: com.portfolio.testCases.GetPortfolioWizardsSummaryTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetPortfolioWizardsSummaryTests@3e58a80e</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetProjectsByPortfolioIdTests.getProjectsByPortfolioId()'><b>getProjectsByPortfolioId</b><br>Test class: com.portfolio.testCases.GetProjectsByPortfolioIdTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.GetProjectsByPortfolioIdTests@1fa268de</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetRecommendationToScorecardTests.getRecommendationToScorecard()'><b>getRecommendationToScorecard</b><br>Test class: com.portfolio.testCases.GetRecommendationToScorecardTests</td>
+<td></td>
+<td>3</td>
+<td>com.portfolio.testCases.GetRecommendationToScorecardTests@158da8e</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetSubsetProjectsByIdTests.getSubsetProjectsById()'><b>getSubsetProjectsById</b><br>Test class: com.portfolio.testCases.GetSubsetProjectsByIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.GetSubsetProjectsByIdTests@4a94ee4</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetSurveyByPortfolioIdTests.getSurveyByPortfolio()'><b>getSurveyByPortfolio</b><br>Test class: com.portfolio.testCases.GetSurveyByPortfolioIdTests</td>
+<td></td>
+<td>6</td>
+<td>com.portfolio.testCases.GetSurveyByPortfolioIdTests@71809907</td></tr>
+<tr>
+<td title='com.portfolio.testCases.GetVersionPhaseSummaryTests.getVersionPhaseSummaryByScorecardId()'><b>getVersionPhaseSummaryByScorecardId</b><br>Test class: com.portfolio.testCases.GetVersionPhaseSummaryTests</td>
+<td></td>
+<td>4</td>
+<td>com.portfolio.testCases.GetVersionPhaseSummaryTests@47af7f3d</td></tr>
+<tr>
+<td title='com.portfolio.testCases.ListUserPortfolioTests.listUserPortfolios()'><b>listUserPortfolios</b><br>Test class: com.portfolio.testCases.ListUserPortfolioTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.ListUserPortfolioTests@5e0826e7</td></tr>
+<tr>
+<td title='com.portfolio.testCases.PortfolioBulkUpdateTests.portfolioBulkUpdateConstructionStatus()'><b>portfolioBulkUpdateConstructionStatus</b><br>Test class: com.portfolio.testCases.PortfolioBulkUpdateTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2</td></tr>
+<tr>
+<td title='com.portfolio.testCases.PortfolioBulkUpdateTests.portfolioBulkUpdateFund()'><b>portfolioBulkUpdateFund</b><br>Test class: com.portfolio.testCases.PortfolioBulkUpdateTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2</td></tr>
+<tr>
+<td title='com.portfolio.testCases.PortfolioBulkUpdateTests.portfolioBulkUpdateIndustry()'><b>portfolioBulkUpdateIndustry</b><br>Test class: com.portfolio.testCases.PortfolioBulkUpdateTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2</td></tr>
+<tr>
+<td title='com.portfolio.testCases.PortfolioBulkUpdateTests.portfolioBulkUpdateOwnerName()'><b>portfolioBulkUpdateOwnerName</b><br>Test class: com.portfolio.testCases.PortfolioBulkUpdateTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2</td></tr>
+<tr>
+<td title='com.portfolio.testCases.PortfolioBulkUpdateTests.portfolioBulkUpdateprojectpublic()'><b>portfolioBulkUpdateprojectpublic</b><br>Test class: com.portfolio.testCases.PortfolioBulkUpdateTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2</td></tr>
+<tr>
+<td title='com.portfolio.testCases.RegisterPortfolioTests.registerPortfolio()'><b>registerPortfolio</b><br>Test class: com.portfolio.testCases.RegisterPortfolioTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.RegisterPortfolioTests@32eff876</td></tr>
+<tr>
+<td title='com.portfolio.testCases.StorePortfolioTests.storePortfolio()'><b>storePortfolio</b><br>Test class: com.portfolio.testCases.StorePortfolioTests</td>
+<td></td>
+<td>2</td>
+<td>com.portfolio.testCases.StorePortfolioTests@6dc17b83</td></tr>
+<tr>
+<td title='com.portfolio.testCases.UpdateNoteToPortfolioTests.updateNoteToPortfolio()'><b>updateNoteToPortfolio</b><br>Test class: com.portfolio.testCases.UpdateNoteToPortfolioTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.UpdateNoteToPortfolioTests@44ebcd03</td></tr>
+<tr>
+<td title='com.portfolio.testCases.UpdatePortfoliobyIdTests.updatePortfolioById()'><b>updatePortfolioById</b><br>Test class: com.portfolio.testCases.UpdatePortfoliobyIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.UpdatePortfoliobyIdTests@4466af20</td></tr>
+<tr>
+<td title='com.portfolio.testCases.UpdatePortfolioDocumentTests.updatePortfolioDocument()'><b>updatePortfolioDocument</b><br>Test class: com.portfolio.testCases.UpdatePortfolioDocumentTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.UpdatePortfolioDocumentTests@5ffead27</td></tr>
+<tr>
+<td title='com.portfolio.testCases.UpdatePortfolioSubsetByIdTests.updatePortfolioSubsetById()'><b>updatePortfolioSubsetById</b><br>Test class: com.portfolio.testCases.UpdatePortfolioSubsetByIdTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.UpdatePortfolioSubsetByIdTests@7b9a4292</td></tr>
+<tr>
+<td title='com.portfolio.testCases.UpdateSurveyStatusTests.updateSurveyStatusToCompleted()'><b>updateSurveyStatusToCompleted</b><br>Test class: com.portfolio.testCases.UpdateSurveyStatusTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.UpdateSurveyStatusTests@3ce1e309</td></tr>
+<tr>
+<td title='com.portfolio.testCases.UpdateSurveyStatusTests.updateSurveyStatusToStarted()'><b>updateSurveyStatusToStarted</b><br>Test class: com.portfolio.testCases.UpdateSurveyStatusTests</td>
+<td></td>
+<td>1</td>
+<td>com.portfolio.testCases.UpdateSurveyStatusTests@3ce1e309</td></tr>
+</table><p>
+</body>
+</html>

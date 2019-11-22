@@ -22,7 +22,7 @@ public class SignInAPITest extends TestBase {
 	
 	
 
-	@Test (dataProvider = "ValidData",dataProviderClass = CustomDataProvider.class)
+	//@Test (dataProvider = "ValidData",dataProviderClass = CustomDataProvider.class)
 	public void testValidEmailPassword(String email, String password) throws IOException{
 			res = given()
 	       .param("email", email)
@@ -59,6 +59,27 @@ public class SignInAPITest extends TestBase {
 		header =(res.path("token")).toString();
 		header = "Bearer "+header;
 		ExcelParserUtils.setCellData(loginUserfile_path, UsersSheet, 1, 3, header);
+				
+	  
+	}
+	
+	@Test 
+	public void writeTokenForAdminUser() throws IOException{
+		username = ExcelParserUtils.getSingleCellData(loginUserfile_path, UsersSheet, "email", 3);
+		password = ExcelParserUtils.getSingleCellData(loginUserfile_path, UsersSheet, "password", 3);
+		res = given()
+			       .param("email", username)
+			       .param("password", password) 
+				.when()
+						.post("authenticate")
+				.then()
+						.body("$", hasKey(TOKEN)) 
+						.body("any { it.key == 'token' }", is(notNullValue())).        //authorization_token value is not null - has a value
+						extract().response();
+		
+		admin_Header =(res.path("token")).toString();
+		admin_Header = "Bearer "+admin_Header;
+		ExcelParserUtils.setCellData(loginUserfile_path, UsersSheet, 2, 3, admin_Header);
 				
 	  
 	}

@@ -1,92 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+<testng-results ignored="0" total="130" passed="130" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-11T11:59:01Z" name="WELLOnlineAPISuite" finished-at="2019-09-11T12:00:05Z" duration-ms="64082">
+  <suite started-at="2019-11-22T07:13:30Z" name="WELLOnlineAPISuite" finished-at="2019-11-22T07:19:02Z" duration-ms="332045">
     <groups>
     </groups>
-    <test started-at="2019-09-11T11:59:01Z" name="AuthenticationAPITest" finished-at="2019-09-11T11:59:22Z" duration-ms="21086">
-      <class name="com.autentication.testCases.SignInAPITest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:01Z" name="setup" finished-at="2019-09-11T17:29:03Z" duration-ms="2056" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testValidEmailPassword(java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:04Z" name="testValidEmailPassword" data-provider="ValidData" finished-at="2019-09-11T17:29:09Z" duration-ms="5201" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wellv2testuser@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[initpass]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidEmailPassword -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:09Z" name="printLog" finished-at="2019-09-11T17:29:09Z" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printLog -->
-        <test-method signature="testValidEmailPassword(java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:09Z" name="testValidEmailPassword" data-provider="ValidData" finished-at="2019-09-11T17:29:11Z" duration-ms="1609" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[samreen@groupten.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samreen@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidEmailPassword -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:11Z" name="printLog" finished-at="2019-09-11T17:29:11Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printLog -->
-        <test-method signature="writeTokenForAuthenticatedUser()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:11Z" name="writeTokenForAuthenticatedUser" finished-at="2019-09-11T17:29:13Z" duration-ms="2261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- writeTokenForAuthenticatedUser -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@13acb0d1]" started-at="2019-09-11T17:29:13Z" name="printLog" finished-at="2019-09-11T17:29:13Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printLog -->
-      </class> <!-- com.autentication.testCases.SignInAPITest -->
-      <class name="com.autentication.testCases.ForgotPassAPITest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@37e547da]" started-at="2019-09-11T17:29:19Z" name="setup" finished-at="2019-09-11T17:29:19Z" duration-ms="41" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testForgotPass(java.lang.String)[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@37e547da]" started-at="2019-09-11T17:29:19Z" name="testForgotPass" data-provider="emailId" finished-at="2019-09-11T17:29:22Z" duration-ms="2505" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wellv2testuser@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testForgotPass -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@37e547da]" started-at="2019-09-11T17:29:22Z" name="printLog" finished-at="2019-09-11T17:29:22Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printLog -->
-      </class> <!-- com.autentication.testCases.ForgotPassAPITest -->
+    <test started-at="2019-11-22T07:13:30Z" name="AuthenticationAPITest" finished-at="2019-11-22T07:13:49Z" duration-ms="18669">
       <class name="com.autentication.testCases.RegisterAPITest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:13Z" name="setup" finished-at="2019-09-11T17:29:13Z" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.RegisterAPITest@2b6856dd]" started-at="2019-11-22T12:43:40Z" name="setup" finished-at="2019-11-22T12:43:40Z" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testExistingUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:14Z" name="testExistingUserRegistration" data-provider="UserData" finished-at="2019-09-11T17:29:15Z" duration-ms="1445" status="PASS">
+        <test-method signature="testExistingUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.RegisterAPITest@2b6856dd]" started-at="2019-11-22T12:43:41Z" name="testExistingUserRegistration" data-provider="UserData" finished-at="2019-11-22T12:43:42Z" duration-ms="1658" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,11 +38,11 @@ wellv2testuser@gmail.com]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExistingUserRegistration -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:15Z" name="printLog" finished-at="2019-09-11T17:29:15Z" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@2b6856dd]" started-at="2019-11-22T12:43:42Z" name="printLog" finished-at="2019-11-22T12:43:42Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-        <test-method signature="testExistingUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:15Z" name="testExistingUserRegistration" data-provider="UserData" finished-at="2019-09-11T17:29:17Z" duration-ms="1408" status="PASS">
+        <test-method signature="testExistingUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autentication.testCases.RegisterAPITest@2b6856dd]" started-at="2019-11-22T12:43:42Z" name="testExistingUserRegistration" data-provider="UserData" finished-at="2019-11-22T12:43:44Z" duration-ms="1547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,293 +68,1675 @@ wellv2testuser@gmail.com]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExistingUserRegistration -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:17Z" name="printLog" finished-at="2019-09-11T17:29:17Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@2b6856dd]" started-at="2019-11-22T12:43:44Z" name="printLog" finished-at="2019-11-22T12:43:44Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-        <test-method signature="testUserRegistration()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:17Z" name="testUserRegistration" finished-at="2019-09-11T17:29:19Z" duration-ms="2339" status="PASS">
+        <test-method signature="testUserRegistration()[pri:0, instance:com.autentication.testCases.RegisterAPITest@2b6856dd]" started-at="2019-11-22T12:43:44Z" name="testUserRegistration" finished-at="2019-11-22T12:43:47Z" duration-ms="2609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@3e3047e6]" started-at="2019-09-11T17:29:19Z" name="printLog" finished-at="2019-09-11T17:29:19Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.RegisterAPITest@2b6856dd]" started-at="2019-11-22T12:43:47Z" name="printLog" finished-at="2019-11-22T12:43:47Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.autentication.testCases.RegisterAPITest -->
-    </test> <!-- AuthenticationAPITest -->
-    <test started-at="2019-09-11T11:59:22Z" name="UsersAPITest" finished-at="2019-09-11T11:59:30Z" duration-ms="8385">
-      <class name="com.users.testCases.GetLoggedMemberInfoTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@13c10b87]" started-at="2019-09-11T17:29:22Z" name="setup" finished-at="2019-09-11T17:29:22Z" duration-ms="74" status="PASS">
+      <class name="com.autentication.testCases.SignInAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.SignInAPITest@37e547da]" started-at="2019-11-22T12:43:30Z" name="setup" finished-at="2019-11-22T12:43:32Z" duration-ms="1868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testUserMemberInfo()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@13c10b87]" started-at="2019-09-11T17:29:22Z" name="testUserMemberInfo" finished-at="2019-09-11T17:29:24Z" duration-ms="1864" status="PASS">
+        <test-method signature="writeTokenForAdminUser()[pri:0, instance:com.autentication.testCases.SignInAPITest@37e547da]" started-at="2019-11-22T12:43:32Z" name="writeTokenForAdminUser" finished-at="2019-11-22T12:43:38Z" duration-ms="5339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTokenForAdminUser -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@37e547da]" started-at="2019-11-22T12:43:38Z" name="printLog" finished-at="2019-11-22T12:43:38Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="writeTokenForAuthenticatedUser()[pri:0, instance:com.autentication.testCases.SignInAPITest@37e547da]" started-at="2019-11-22T12:43:38Z" name="writeTokenForAuthenticatedUser" finished-at="2019-11-22T12:43:40Z" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTokenForAuthenticatedUser -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.SignInAPITest@37e547da]" started-at="2019-11-22T12:43:40Z" name="printLog" finished-at="2019-11-22T12:43:40Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.autentication.testCases.SignInAPITest -->
+      <class name="com.autentication.testCases.ForgotPassAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@5db45159]" started-at="2019-11-22T12:43:47Z" name="setup" finished-at="2019-11-22T12:43:47Z" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testForgotPass()[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@5db45159]" started-at="2019-11-22T12:43:47Z" name="testForgotPass" finished-at="2019-11-22T12:43:49Z" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPass -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.autentication.testCases.ForgotPassAPITest@5db45159]" started-at="2019-11-22T12:43:49Z" name="printLog" finished-at="2019-11-22T12:43:49Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.autentication.testCases.ForgotPassAPITest -->
+    </test> <!-- AuthenticationAPITest -->
+    <test started-at="2019-11-22T07:13:49Z" name="UsersAPITest" finished-at="2019-11-22T07:13:59Z" duration-ms="9755">
+      <class name="com.users.testCases.GetLoggedMemberInfoTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@5a955565]" started-at="2019-11-22T12:43:49Z" name="setup" finished-at="2019-11-22T12:43:49Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUserMemberInfo()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@5a955565]" started-at="2019-11-22T12:43:49Z" name="testUserMemberInfo" finished-at="2019-11-22T12:43:51Z" duration-ms="1953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserMemberInfo -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@13c10b87]" started-at="2019-09-11T17:29:24Z" name="printLog" finished-at="2019-09-11T17:29:24Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.GetLoggedMemberInfoTest@5a955565]" started-at="2019-11-22T12:43:51Z" name="printLog" finished-at="2019-11-22T12:43:51Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.users.testCases.GetLoggedMemberInfoTest -->
       <class name="com.users.testCases.GetUserIdInfo">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.GetUserIdInfo@6a01e23]" started-at="2019-09-11T17:29:24Z" name="setup" finished-at="2019-09-11T17:29:24Z" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.GetUserIdInfo@6293abcc]" started-at="2019-11-22T12:43:51Z" name="setup" finished-at="2019-11-22T12:43:51Z" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getUserInfo()[pri:0, instance:com.users.testCases.GetUserIdInfo@6a01e23]" started-at="2019-09-11T17:29:24Z" name="getUserInfo" finished-at="2019-09-11T17:29:25Z" duration-ms="1496" status="PASS">
+        <test-method signature="getUserInfo()[pri:0, instance:com.users.testCases.GetUserIdInfo@6293abcc]" started-at="2019-11-22T12:43:51Z" name="getUserInfo" finished-at="2019-11-22T12:43:53Z" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserInfo -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.GetUserIdInfo@6a01e23]" started-at="2019-09-11T17:29:25Z" name="printLog" finished-at="2019-09-11T17:29:25Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.GetUserIdInfo@6293abcc]" started-at="2019-11-22T12:43:53Z" name="printLog" finished-at="2019-11-22T12:43:53Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.users.testCases.GetUserIdInfo -->
       <class name="com.users.testCases.UpdateUserIdTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:27Z" name="setup" finished-at="2019-09-11T17:29:27Z" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.UpdateUserIdTest@7fc2413d]" started-at="2019-11-22T12:43:55Z" name="setup" finished-at="2019-11-22T12:43:55Z" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateUserIdInfo()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:27Z" name="updateUserIdInfo" finished-at="2019-09-11T17:29:29Z" duration-ms="1623" status="PASS">
+        <test-method signature="updateUserIdInfo()[pri:0, instance:com.users.testCases.UpdateUserIdTest@7fc2413d]" started-at="2019-11-22T12:43:55Z" name="updateUserIdInfo" finished-at="2019-11-22T12:43:57Z" duration-ms="1907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserIdInfo -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:29Z" name="printLog" finished-at="2019-09-11T17:29:29Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdateUserIdTest@7fc2413d]" started-at="2019-11-22T12:43:57Z" name="printLog" finished-at="2019-11-22T12:43:57Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-        <test-method signature="updateUserIdOptionalInfo()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:29Z" name="updateUserIdOptionalInfo" finished-at="2019-09-11T17:29:30Z" duration-ms="1600" status="PASS">
+        <test-method signature="updateUserIdOptionalInfo()[pri:0, instance:com.users.testCases.UpdateUserIdTest@7fc2413d]" started-at="2019-11-22T12:43:57Z" name="updateUserIdOptionalInfo" finished-at="2019-11-22T12:43:59Z" duration-ms="1819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserIdOptionalInfo -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdateUserIdTest@6293abcc]" started-at="2019-09-11T17:29:30Z" name="printLog" finished-at="2019-09-11T17:29:30Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdateUserIdTest@7fc2413d]" started-at="2019-11-22T12:43:59Z" name="printLog" finished-at="2019-11-22T12:43:59Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.users.testCases.UpdateUserIdTest -->
       <class name="com.users.testCases.UpdatePasswordForUserTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@5a955565]" started-at="2019-09-11T17:29:25Z" name="setup" finished-at="2019-09-11T17:29:25Z" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@7995092a]" started-at="2019-11-22T12:43:53Z" name="setup" finished-at="2019-11-22T12:43:53Z" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updatePassword()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@5a955565]" started-at="2019-09-11T17:29:25Z" name="updatePassword" finished-at="2019-09-11T17:29:27Z" duration-ms="1541" status="PASS">
+        <test-method signature="updatePassword()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@7995092a]" started-at="2019-11-22T12:43:53Z" name="updatePassword" finished-at="2019-11-22T12:43:55Z" duration-ms="1734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatePassword -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@5a955565]" started-at="2019-09-11T17:29:27Z" name="printLog" finished-at="2019-09-11T17:29:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.UpdatePasswordForUserTest@7995092a]" started-at="2019-11-22T12:43:55Z" name="printLog" finished-at="2019-11-22T12:43:55Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.users.testCases.UpdatePasswordForUserTest -->
     </test> <!-- UsersAPITest -->
-    <test started-at="2019-09-11T11:59:30Z" name="ProjectsAPITest" finished-at="2019-09-11T11:59:49Z" duration-ms="18477">
-      <class name="com.project.testCases.StoreNewProjectTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.StoreNewProjectTest@2805c96b]" started-at="2019-09-11T17:29:30Z" name="setup" finished-at="2019-09-11T17:29:30Z" duration-ms="29" status="PASS">
+    <test started-at="2019-11-22T07:13:59Z" name="V1ProjectsAPITest" finished-at="2019-11-22T07:14:11Z" duration-ms="11980">
+      <class name="com.wellv1.project.CreateV1ProjectTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wellv1.project.CreateV1ProjectTest@2805c96b]" started-at="2019-11-22T12:43:59Z" name="setup" finished-at="2019-11-22T12:43:59Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="storeProject()[pri:0, instance:com.project.testCases.StoreNewProjectTest@2805c96b]" started-at="2019-09-11T17:29:30Z" name="storeProject" finished-at="2019-09-11T17:29:35Z" duration-ms="4793" status="PASS">
+        <test-method signature="createV1Project()[pri:0, instance:com.wellv1.project.CreateV1ProjectTest@2805c96b]" started-at="2019-11-22T12:43:59Z" name="createV1Project" finished-at="2019-11-22T12:44:02Z" duration-ms="3197" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- storeProject -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.StoreNewProjectTest@2805c96b]" started-at="2019-09-11T17:29:35Z" name="printLog" finished-at="2019-09-11T17:29:35Z" duration-ms="3" status="PASS">
+        </test-method> <!-- createV1Project -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.wellv1.project.CreateV1ProjectTest@2805c96b]" started-at="2019-11-22T12:44:02Z" name="printLog" finished-at="2019-11-22T12:44:02Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-      </class> <!-- com.project.testCases.StoreNewProjectTest -->
-      <class name="com.project.testCases.UpdateProjectByProjectId">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@5db250b4]" started-at="2019-09-11T17:29:43Z" name="setup" finished-at="2019-09-11T17:29:43Z" duration-ms="19" status="PASS">
+      </class> <!-- com.wellv1.project.CreateV1ProjectTest -->
+      <class name="com.wellv1.project.GetV1ProjectById">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wellv1.project.GetV1ProjectById@2fd6b6c7]" started-at="2019-11-22T12:44:05Z" name="setup" finished-at="2019-11-22T12:44:05Z" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateProject()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@5db250b4]" started-at="2019-09-11T17:29:43Z" name="updateProject" finished-at="2019-09-11T17:29:45Z" duration-ms="2531" status="PASS">
+        <test-method signature="getV1ProjectById()[pri:0, instance:com.wellv1.project.GetV1ProjectById@2fd6b6c7]" started-at="2019-11-22T12:44:05Z" name="getV1ProjectById" finished-at="2019-11-22T12:44:07Z" duration-ms="2026" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateProject -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@5db250b4]" started-at="2019-09-11T17:29:45Z" name="printLog" finished-at="2019-09-11T17:29:45Z" duration-ms="0" status="PASS">
+        </test-method> <!-- getV1ProjectById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.wellv1.project.GetV1ProjectById@2fd6b6c7]" started-at="2019-11-22T12:44:07Z" name="printLog" finished-at="2019-11-22T12:44:07Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-      </class> <!-- com.project.testCases.UpdateProjectByProjectId -->
-      <class name="com.project.testCases.GetProjectInvoiceStatusTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@38c5cc4c]" started-at="2019-09-11T17:29:47Z" name="setup" finished-at="2019-09-11T17:29:47Z" duration-ms="20" status="PASS">
+      </class> <!-- com.wellv1.project.GetV1ProjectById -->
+      <class name="com.wellv1.project.CreateV1EstimateTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wellv1.project.CreateV1EstimateTest@5bfa9431]" started-at="2019-11-22T12:44:07Z" name="setup" finished-at="2019-11-22T12:44:07Z" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getProjectInvoice()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@38c5cc4c]" started-at="2019-09-11T17:29:47Z" name="getProjectInvoice" finished-at="2019-09-11T17:29:49Z" duration-ms="1636" status="PASS">
+        <test-method signature="createV1Estimate()[pri:0, instance:com.wellv1.project.CreateV1EstimateTest@5bfa9431]" started-at="2019-11-22T12:44:07Z" name="createV1Estimate" finished-at="2019-11-22T12:44:09Z" duration-ms="1843" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getProjectInvoice -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@38c5cc4c]" started-at="2019-09-11T17:29:49Z" name="printLog" finished-at="2019-09-11T17:29:49Z" duration-ms="8" status="PASS">
+        </test-method> <!-- createV1Estimate -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.wellv1.project.CreateV1EstimateTest@5bfa9431]" started-at="2019-11-22T12:44:09Z" name="printLog" finished-at="2019-11-22T12:44:09Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-      </class> <!-- com.project.testCases.GetProjectInvoiceStatusTest -->
-      <class name="com.project.testCases.RegisterProjectTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.RegisterProjectTest@5bfa9431]" started-at="2019-09-11T17:29:39Z" name="setup" finished-at="2019-09-11T17:29:39Z" duration-ms="51" status="PASS">
+      </class> <!-- com.wellv1.project.CreateV1EstimateTest -->
+      <class name="com.wellv1.project.UpdateV1ProjectTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wellv1.project.UpdateV1ProjectTest@184cf7cf]" started-at="2019-11-22T12:44:02Z" name="setup" finished-at="2019-11-22T12:44:02Z" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerProject()[pri:0, instance:com.project.testCases.RegisterProjectTest@5bfa9431]" started-at="2019-09-11T17:29:39Z" name="registerProject" finished-at="2019-09-11T17:29:43Z" duration-ms="3351" status="PASS">
+        <test-method signature="updateV1Project()[pri:0, instance:com.wellv1.project.UpdateV1ProjectTest@184cf7cf]" started-at="2019-11-22T12:44:02Z" name="updateV1Project" finished-at="2019-11-22T12:44:05Z" duration-ms="2834" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerProject -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.RegisterProjectTest@5bfa9431]" started-at="2019-09-11T17:29:43Z" name="printLog" finished-at="2019-09-11T17:29:43Z" duration-ms="2" status="PASS">
+        </test-method> <!-- updateV1Project -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.wellv1.project.UpdateV1ProjectTest@184cf7cf]" started-at="2019-11-22T12:44:05Z" name="printLog" finished-at="2019-11-22T12:44:05Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-      </class> <!-- com.project.testCases.RegisterProjectTest -->
-      <class name="com.project.testCases.GetProjectByProjectIdTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@2fd6b6c7]" started-at="2019-09-11T17:29:37Z" name="setup" finished-at="2019-09-11T17:29:37Z" duration-ms="24" status="PASS">
+      </class> <!-- com.wellv1.project.UpdateV1ProjectTest -->
+      <class name="com.wellv1.project.GetV1EstimateById">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.wellv1.project.GetV1EstimateById@5db250b4]" started-at="2019-11-22T12:44:09Z" name="setup" finished-at="2019-11-22T12:44:09Z" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getprojectById()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@2fd6b6c7]" started-at="2019-09-11T17:29:37Z" name="getprojectById" finished-at="2019-09-11T17:29:39Z" duration-ms="1906" status="PASS">
+        <test-method signature="getV1EstimateById()[pri:0, instance:com.wellv1.project.GetV1EstimateById@5db250b4]" started-at="2019-11-22T12:44:09Z" name="getV1EstimateById" finished-at="2019-11-22T12:44:11Z" duration-ms="1602" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getprojectById -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@2fd6b6c7]" started-at="2019-09-11T17:29:39Z" name="printLog" finished-at="2019-09-11T17:29:39Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printLog -->
-      </class> <!-- com.project.testCases.GetProjectByProjectIdTest -->
-      <class name="com.project.testCases.GetUserProjectsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetUserProjectsTest@184cf7cf]" started-at="2019-09-11T17:29:35Z" name="setup" finished-at="2019-09-11T17:29:35Z" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getUserProjects()[pri:0, instance:com.project.testCases.GetUserProjectsTest@184cf7cf]" started-at="2019-09-11T17:29:35Z" name="getUserProjects" finished-at="2019-09-11T17:29:37Z" duration-ms="1593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUserProjects -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetUserProjectsTest@184cf7cf]" started-at="2019-09-11T17:29:37Z" name="printLog" finished-at="2019-09-11T17:29:37Z" duration-ms="532" status="PASS">
+        </test-method> <!-- getV1EstimateById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.wellv1.project.GetV1EstimateById@5db250b4]" started-at="2019-11-22T12:44:11Z" name="printLog" finished-at="2019-11-22T12:44:11Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-      </class> <!-- com.project.testCases.GetUserProjectsTest -->
-      <class name="com.project.testCases.GetProjectMembersTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectMembersTest@223f3642]" started-at="2019-09-11T17:29:45Z" name="setup" finished-at="2019-09-11T17:29:45Z" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getProjectMembers()[pri:0, instance:com.project.testCases.GetProjectMembersTest@223f3642]" started-at="2019-09-11T17:29:45Z" name="getProjectMembers" finished-at="2019-09-11T17:29:47Z" duration-ms="1914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getProjectMembers -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectMembersTest@223f3642]" started-at="2019-09-11T17:29:47Z" name="printLog" finished-at="2019-09-11T17:29:47Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printLog -->
-      </class> <!-- com.project.testCases.GetProjectMembersTest -->
-    </test> <!-- ProjectsAPITest -->
-    <test started-at="2019-09-11T11:59:49Z" name="EstimatesAPITest" finished-at="2019-09-11T11:59:56Z" duration-ms="7579">
+      </class> <!-- com.wellv1.project.GetV1EstimateById -->
+    </test> <!-- V1ProjectsAPITest -->
+    <test started-at="2019-11-22T07:14:11Z" name="EstimatesAPITest" finished-at="2019-11-22T07:14:19Z" duration-ms="8497">
       <class name="com.project.estimates.GetEstimatePDFExport">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@45018215]" started-at="2019-09-11T17:29:54Z" name="setup" finished-at="2019-09-11T17:29:54Z" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@7b227d8d]" started-at="2019-11-22T12:44:17Z" name="setup" finished-at="2019-11-22T12:44:17Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getEstimatePDF()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@45018215]" started-at="2019-09-11T17:29:54Z" name="getEstimatePDF" finished-at="2019-09-11T17:29:56Z" duration-ms="2305" status="PASS">
+        <test-method signature="getEstimatePDF()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@7b227d8d]" started-at="2019-11-22T12:44:17Z" name="getEstimatePDF" finished-at="2019-11-22T12:44:19Z" duration-ms="2748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEstimatePDF -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@45018215]" started-at="2019-09-11T17:29:56Z" name="printLog" finished-at="2019-09-11T17:29:56Z" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.GetEstimatePDFExport@7b227d8d]" started-at="2019-11-22T12:44:19Z" name="printLog" finished-at="2019-11-22T12:44:19Z" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.project.estimates.GetEstimatePDFExport -->
       <class name="com.project.estimates.GetEstimateById">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.GetEstimateById@7b227d8d]" started-at="2019-09-11T17:29:51Z" name="setup" finished-at="2019-09-11T17:29:51Z" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.GetEstimateById@12d4bf7e]" started-at="2019-11-22T12:44:13Z" name="setup" finished-at="2019-11-22T12:44:13Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getEstimateById()[pri:0, instance:com.project.estimates.GetEstimateById@7b227d8d]" started-at="2019-09-11T17:29:51Z" name="getEstimateById" finished-at="2019-09-11T17:29:52Z" duration-ms="1610" status="PASS">
+        <test-method signature="getEstimateById()[pri:0, instance:com.project.estimates.GetEstimateById@12d4bf7e]" started-at="2019-11-22T12:44:13Z" name="getEstimateById" finished-at="2019-11-22T12:44:15Z" duration-ms="1835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEstimateById -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.GetEstimateById@7b227d8d]" started-at="2019-09-11T17:29:52Z" name="printLog" finished-at="2019-09-11T17:29:52Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.GetEstimateById@12d4bf7e]" started-at="2019-11-22T12:44:15Z" name="printLog" finished-at="2019-11-22T12:44:15Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.project.estimates.GetEstimateById -->
       <class name="com.project.estimates.UpdateEstimateTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.UpdateEstimateTest@7219ec67]" started-at="2019-09-11T17:29:52Z" name="setup" finished-at="2019-09-11T17:29:52Z" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.UpdateEstimateTest@4c1d9d4b]" started-at="2019-11-22T12:44:15Z" name="setup" finished-at="2019-11-22T12:44:15Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateEstimatebyEstimateId()[pri:0, instance:com.project.estimates.UpdateEstimateTest@7219ec67]" started-at="2019-09-11T17:29:52Z" name="updateEstimatebyEstimateId" finished-at="2019-09-11T17:29:54Z" duration-ms="1644" status="PASS">
+        <test-method signature="updateEstimatebyEstimateId()[pri:0, instance:com.project.estimates.UpdateEstimateTest@4c1d9d4b]" started-at="2019-11-22T12:44:15Z" name="updateEstimatebyEstimateId" finished-at="2019-11-22T12:44:17Z" duration-ms="1756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateEstimatebyEstimateId -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.UpdateEstimateTest@7219ec67]" started-at="2019-09-11T17:29:54Z" name="printLog" finished-at="2019-09-11T17:29:54Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.UpdateEstimateTest@4c1d9d4b]" started-at="2019-11-22T12:44:17Z" name="printLog" finished-at="2019-11-22T12:44:17Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.project.estimates.UpdateEstimateTest -->
       <class name="com.project.estimates.CreateEstimateTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.CreateEstimateTest@4c1d9d4b]" started-at="2019-09-11T17:29:49Z" name="setup" finished-at="2019-09-11T17:29:49Z" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.estimates.CreateEstimateTest@14d3bc22]" started-at="2019-11-22T12:44:11Z" name="setup" finished-at="2019-11-22T12:44:11Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createEstimate()[pri:0, instance:com.project.estimates.CreateEstimateTest@4c1d9d4b]" started-at="2019-09-11T17:29:49Z" name="createEstimate" finished-at="2019-09-11T17:29:51Z" duration-ms="1854" status="PASS">
+        <test-method signature="createEstimate()[pri:0, instance:com.project.estimates.CreateEstimateTest@14d3bc22]" started-at="2019-11-22T12:44:11Z" name="createEstimate" finished-at="2019-11-22T12:44:13Z" duration-ms="1918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createEstimate -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.CreateEstimateTest@4c1d9d4b]" started-at="2019-09-11T17:29:51Z" name="printLog" finished-at="2019-09-11T17:29:51Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.estimates.CreateEstimateTest@14d3bc22]" started-at="2019-11-22T12:44:13Z" name="printLog" finished-at="2019-11-22T12:44:13Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.project.estimates.CreateEstimateTest -->
     </test> <!-- EstimatesAPITest -->
-    <test started-at="2019-09-11T11:59:56Z" name="TeamAPITest" finished-at="2019-09-11T12:00:03Z" duration-ms="6965">
-      <class name="com.project.testCases.DetachProjectMemberTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.DetachProjectMemberTest@6973bf95]" started-at="2019-09-11T17:30:02Z" name="setup" finished-at="2019-09-11T17:30:02Z" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="detachProjectMember()[pri:0, instance:com.project.testCases.DetachProjectMemberTest@6973bf95]" started-at="2019-09-11T17:30:02Z" name="detachProjectMember" finished-at="2019-09-11T17:30:03Z" duration-ms="1722" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- detachProjectMember -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.DetachProjectMemberTest@6973bf95]" started-at="2019-09-11T17:30:03Z" name="printLog" finished-at="2019-09-11T17:30:03Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printLog -->
-      </class> <!-- com.project.testCases.DetachProjectMemberTest -->
+    <test started-at="2019-11-22T07:14:19Z" name="TeamAPITest" finished-at="2019-11-22T07:14:30Z" duration-ms="10726">
       <class name="com.project.testCases.InviteProjectMemberTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:29:56Z" name="setup" finished-at="2019-09-11T17:29:56Z" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@1fe20588]" started-at="2019-11-22T12:44:19Z" name="setup" finished-at="2019-11-22T12:44:20Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="inviteMember()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:29:56Z" name="inviteMember" finished-at="2019-09-11T17:29:59Z" duration-ms="2551" status="PASS">
+        <test-method signature="inviteMemberAsProjectManager()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@1fe20588]" started-at="2019-11-22T12:44:20Z" name="inviteMemberAsProjectManager" finished-at="2019-11-22T12:44:22Z" duration-ms="2313" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inviteMember -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:29:59Z" name="printLog" finished-at="2019-09-11T17:29:59Z" duration-ms="1" status="PASS">
+        </test-method> <!-- inviteMemberAsProjectManager -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@1fe20588]" started-at="2019-11-22T12:44:22Z" name="printLog" finished-at="2019-11-22T12:44:22Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
-        <test-method signature="assertInvitedMember()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:29:59Z" name="assertInvitedMember" finished-at="2019-09-11T17:30:02Z" depends-on-methods="com.project.testCases.InviteProjectMemberTest.inviteMember" duration-ms="2634" status="PASS">
+        <test-method signature="assertInvitedMember()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@1fe20588]" started-at="2019-11-22T12:44:22Z" name="assertInvitedMember" finished-at="2019-11-22T12:44:24Z" depends-on-methods="com.project.testCases.InviteProjectMemberTest.inviteMemberAsProjectManager" duration-ms="1782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertInvitedMember -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@77167fb7]" started-at="2019-09-11T17:30:02Z" name="printLog" finished-at="2019-09-11T17:30:02Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.InviteProjectMemberTest@1fe20588]" started-at="2019-11-22T12:44:24Z" name="printLog" finished-at="2019-11-22T12:44:24Z" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->
       </class> <!-- com.project.testCases.InviteProjectMemberTest -->
-    </test> <!-- TeamAPITest -->
-    <test started-at="2019-09-11T12:00:03Z" name="FinalAPITest" finished-at="2019-09-11T12:00:05Z" duration-ms="1508">
-      <class name="com.users.testCases.LogoutTestClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.LogoutTestClass@4445629]" started-at="2019-09-11T17:30:03Z" name="setup" finished-at="2019-09-11T17:30:03Z" duration-ms="20" status="PASS">
+      <class name="com.project.testCases.AssertInvitedProjectMemberPrivileges">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.AssertInvitedProjectMemberPrivileges@2ddc8ecb]" started-at="2019-11-22T12:44:24Z" name="setup" finished-at="2019-11-22T12:44:24Z" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoutTest()[pri:0, instance:com.users.testCases.LogoutTestClass@4445629]" started-at="2019-09-11T17:30:03Z" name="logoutTest" finished-at="2019-09-11T17:30:05Z" duration-ms="1488" status="PASS">
+        <test-method signature="createNoteAsProjectMember()[pri:0, instance:com.project.testCases.AssertInvitedProjectMemberPrivileges@2ddc8ecb]" started-at="2019-11-22T12:44:24Z" name="createNoteAsProjectMember" finished-at="2019-11-22T12:44:26Z" duration-ms="2411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteAsProjectMember -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.AssertInvitedProjectMemberPrivileges@2ddc8ecb]" started-at="2019-11-22T12:44:26Z" name="printLog" finished-at="2019-11-22T12:44:26Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="writeTokenForInvitedMember()[pri:0, instance:com.project.testCases.AssertInvitedProjectMemberPrivileges@2ddc8ecb]" started-at="2019-11-22T12:44:26Z" name="writeTokenForInvitedMember" finished-at="2019-11-22T12:44:28Z" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTokenForInvitedMember -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.AssertInvitedProjectMemberPrivileges@2ddc8ecb]" started-at="2019-11-22T12:44:28Z" name="printLog" finished-at="2019-11-22T12:44:28Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.AssertInvitedProjectMemberPrivileges -->
+      <class name="com.project.testCases.GetProjectMembersTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectMembersTest@229d10bd]" started-at="2019-11-22T12:44:28Z" name="setup" finished-at="2019-11-22T12:44:28Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProjectMembers()[pri:0, instance:com.project.testCases.GetProjectMembersTest@229d10bd]" started-at="2019-11-22T12:44:28Z" name="getProjectMembers" finished-at="2019-11-22T12:44:30Z" duration-ms="1961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectMembers -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectMembersTest@229d10bd]" started-at="2019-11-22T12:44:30Z" name="printLog" finished-at="2019-11-22T12:44:30Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetProjectMembersTest -->
+    </test> <!-- TeamAPITest -->
+    <test started-at="2019-11-22T07:14:30Z" name="ProjectsAPITest" finished-at="2019-11-22T07:17:09Z" duration-ms="158680">
+      <class name="com.project.testCases.GetAllReviewsByProjectId">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetAllReviewsByProjectId@635eaaf1]" started-at="2019-11-22T12:46:33Z" name="setup" finished-at="2019-11-22T12:46:33Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllReviewsByProjectId()[pri:0, instance:com.project.testCases.GetAllReviewsByProjectId@635eaaf1]" started-at="2019-11-22T12:46:33Z" name="getAllReviewsByProjectId" finished-at="2019-11-22T12:46:35Z" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllReviewsByProjectId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetAllReviewsByProjectId@635eaaf1]" started-at="2019-11-22T12:46:35Z" name="printLog" finished-at="2019-11-22T12:46:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetAllReviewsByProjectId -->
+      <class name="com.project.testCases.StoreNewProjectTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.StoreNewProjectTest@cd3fee8]" started-at="2019-11-22T12:44:30Z" name="setup" finished-at="2019-11-22T12:44:30Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="storeProject()[pri:0, instance:com.project.testCases.StoreNewProjectTest@cd3fee8]" started-at="2019-11-22T12:44:30Z" name="storeProject" finished-at="2019-11-22T12:44:33Z" duration-ms="2848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeProject -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.StoreNewProjectTest@cd3fee8]" started-at="2019-11-22T12:44:33Z" name="printLog" finished-at="2019-11-22T12:44:33Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.StoreNewProjectTest -->
+      <class name="com.project.testCases.GetEPTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetEPTests@9353778]" started-at="2019-11-22T12:46:01Z" name="setup" finished-at="2019-11-22T12:46:01Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getEPbyEPId()[pri:0, instance:com.project.testCases.GetEPTests@9353778]" started-at="2019-11-22T12:46:01Z" name="getEPbyEPId" finished-at="2019-11-22T12:46:02Z" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEPbyEPId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetEPTests@9353778]" started-at="2019-11-22T12:46:02Z" name="printLog" finished-at="2019-11-22T12:46:02Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="getEPbyEPIdAsAdmin()[pri:0, instance:com.project.testCases.GetEPTests@9353778]" started-at="2019-11-22T12:46:02Z" name="getEPbyEPIdAsAdmin" finished-at="2019-11-22T12:46:04Z" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEPbyEPIdAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetEPTests@9353778]" started-at="2019-11-22T12:46:04Z" name="printLog" finished-at="2019-11-22T12:46:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetEPTests -->
+      <class name="com.project.scorecard.DeleteDocumentByScorecardidTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.DeleteDocumentByScorecardidTest@50a638b5]" started-at="2019-11-22T12:47:06Z" name="setup" finished-at="2019-11-22T12:47:07Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteDocumentByScorecardId()[pri:0, instance:com.project.scorecard.DeleteDocumentByScorecardidTest@50a638b5]" started-at="2019-11-22T12:47:07Z" name="deleteDocumentByScorecardId" finished-at="2019-11-22T12:47:09Z" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDocumentByScorecardId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.DeleteDocumentByScorecardidTest@50a638b5]" started-at="2019-11-22T12:47:09Z" name="printLog" finished-at="2019-11-22T12:47:09Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.DeleteDocumentByScorecardidTest -->
+      <class name="com.project.testCases.CreateProjectDocumentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.CreateProjectDocumentTest@10e41621]" started-at="2019-11-22T12:44:37Z" name="setup" finished-at="2019-11-22T12:44:37Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProjectDocument()[pri:0, instance:com.project.testCases.CreateProjectDocumentTest@10e41621]" started-at="2019-11-22T12:44:37Z" name="addProjectDocument" finished-at="2019-11-22T12:44:40Z" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProjectDocument -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.CreateProjectDocumentTest@10e41621]" started-at="2019-11-22T12:44:40Z" name="printLog" finished-at="2019-11-22T12:44:40Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.CreateProjectDocumentTest -->
+      <class name="com.project.scorecard.AddNoteToScorecardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.AddNoteToScorecardTest@70e8f8e]" started-at="2019-11-22T12:45:17Z" name="setup" finished-at="2019-11-22T12:45:17Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNoteToScorecard()[pri:0, instance:com.project.scorecard.AddNoteToScorecardTest@70e8f8e]" started-at="2019-11-22T12:45:17Z" name="addNoteToScorecard" finished-at="2019-11-22T12:45:19Z" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNoteToScorecard -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.AddNoteToScorecardTest@70e8f8e]" started-at="2019-11-22T12:45:19Z" name="printLog" finished-at="2019-11-22T12:45:19Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.AddNoteToScorecardTest -->
+      <class name="com.project.testCases.SubmitReviewTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.SubmitReviewTests@c267ef4]" started-at="2019-11-22T12:46:24Z" name="setup" finished-at="2019-11-22T12:46:24Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="submitReview()[pri:0, instance:com.project.testCases.SubmitReviewTests@c267ef4]" started-at="2019-11-22T12:46:24Z" name="submitReview" finished-at="2019-11-22T12:46:28Z" duration-ms="4295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitReview -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.SubmitReviewTests@c267ef4]" started-at="2019-11-22T12:46:28Z" name="printLog" finished-at="2019-11-22T12:46:28Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.SubmitReviewTests -->
+      <class name="com.project.testCases.UpdateAAPAsApproved">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateAAPAsApproved@7e0b85f9]" started-at="2019-11-22T12:45:52Z" name="setup" finished-at="2019-11-22T12:45:52Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateAAPAsAdmin()[pri:0, instance:com.project.testCases.UpdateAAPAsApproved@7e0b85f9]" started-at="2019-11-22T12:45:52Z" name="UpdateAAPAsAdmin" finished-at="2019-11-22T12:45:54Z" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAAPAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateAAPAsApproved@7e0b85f9]" started-at="2019-11-22T12:45:54Z" name="printLog" finished-at="2019-11-22T12:45:54Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="testApprovedStatusAAP()[pri:0, instance:com.project.testCases.UpdateAAPAsApproved@7e0b85f9]" started-at="2019-11-22T12:45:57Z" name="testApprovedStatusAAP" finished-at="2019-11-22T12:45:59Z" depends-on-methods="com.project.testCases.UpdateAAPAsApproved.UpdateAAPAsAdmin" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApprovedStatusAAP -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateAAPAsApproved@7e0b85f9]" started-at="2019-11-22T12:45:59Z" name="printLog" finished-at="2019-11-22T12:45:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateAAPAsApproved -->
+      <class name="com.project.testCases.UpdateReviewAsAdminTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateReviewAsAdminTests@1ddf84b8]" started-at="2019-11-22T12:46:37Z" name="setup" finished-at="2019-11-22T12:46:37Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateReviewAsAdmin()[pri:0, instance:com.project.testCases.UpdateReviewAsAdminTests@1ddf84b8]" started-at="2019-11-22T12:46:37Z" name="updateReviewAsAdmin" finished-at="2019-11-22T12:46:40Z" duration-ms="2831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateReviewAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateReviewAsAdminTests@1ddf84b8]" started-at="2019-11-22T12:46:40Z" name="printLog" finished-at="2019-11-22T12:46:40Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateReviewAsAdminTests -->
+      <class name="com.project.testCases.UpdateEPAsApproved">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateEPAsApproved@1700915]" started-at="2019-11-22T12:46:19Z" name="setup" finished-at="2019-11-22T12:46:19Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateEPAsAdmin()[pri:0, instance:com.project.testCases.UpdateEPAsApproved@1700915]" started-at="2019-11-22T12:46:19Z" name="updateEPAsAdmin" finished-at="2019-11-22T12:46:22Z" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEPAsAdmin -->
+        <test-method signature="testApprovedStatusEP()[pri:0, instance:com.project.testCases.UpdateEPAsApproved@1700915]" started-at="2019-11-22T12:46:22Z" name="testApprovedStatusEP" finished-at="2019-11-22T12:46:24Z" depends-on-methods="com.project.testCases.UpdateEPAsApproved.updateEPAsAdmin" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApprovedStatusEP -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateEPAsApproved@1700915]" started-at="2019-11-22T12:46:22Z" name="printLog" finished-at="2019-11-22T12:46:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateEPAsApproved@1700915]" started-at="2019-11-22T12:46:24Z" name="printLog" finished-at="2019-11-22T12:46:24Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateEPAsApproved -->
+      <class name="com.project.testCases.GetUserProjectsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetUserProjectsTest@3e2e18f2]" started-at="2019-11-22T12:44:35Z" name="setup" finished-at="2019-11-22T12:44:35Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUserProjects()[pri:0, instance:com.project.testCases.GetUserProjectsTest@3e2e18f2]" started-at="2019-11-22T12:44:35Z" name="getUserProjects" finished-at="2019-11-22T12:44:37Z" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProjects -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetUserProjectsTest@3e2e18f2]" started-at="2019-11-22T12:44:37Z" name="printLog" finished-at="2019-11-22T12:44:37Z" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetUserProjectsTest -->
+      <class name="com.project.scorecard.GetAllNotesByScorecardIdTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.GetAllNotesByScorecardIdTest@19bb07ed]" started-at="2019-11-22T12:44:33Z" name="setup" finished-at="2019-11-22T12:44:33Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getNotesByScorecardId()[pri:0, instance:com.project.scorecard.GetAllNotesByScorecardIdTest@19bb07ed]" started-at="2019-11-22T12:44:33Z" name="getNotesByScorecardId" finished-at="2019-11-22T12:44:35Z" duration-ms="1587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNotesByScorecardId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.GetAllNotesByScorecardIdTest@19bb07ed]" started-at="2019-11-22T12:44:35Z" name="printLog" finished-at="2019-11-22T12:44:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.GetAllNotesByScorecardIdTest -->
+      <class name="com.project.testCases.GetAllNotesByProjectId">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetAllNotesByProjectId@57c758ac]" started-at="2019-11-22T12:45:02Z" name="setup" finished-at="2019-11-22T12:45:02Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllNotesByProjectId()[pri:0, instance:com.project.testCases.GetAllNotesByProjectId@57c758ac]" started-at="2019-11-22T12:45:02Z" name="getAllNotesByProjectId" finished-at="2019-11-22T12:45:04Z" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNotesByProjectId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetAllNotesByProjectId@57c758ac]" started-at="2019-11-22T12:45:04Z" name="printLog" finished-at="2019-11-22T12:45:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetAllNotesByProjectId -->
+      <class name="com.project.testCases.UpdateEPAsInfoRequested">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateEPAsInfoRequested@6a28ffa4]" started-at="2019-11-22T12:46:06Z" name="setup" finished-at="2019-11-22T12:46:06Z" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateEPAsAdmin()[pri:0, instance:com.project.testCases.UpdateEPAsInfoRequested@6a28ffa4]" started-at="2019-11-22T12:46:06Z" name="UpdateEPAsAdmin" finished-at="2019-11-22T12:46:08Z" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateEPAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateEPAsInfoRequested@6a28ffa4]" started-at="2019-11-22T12:46:08Z" name="printLog" finished-at="2019-11-22T12:46:08Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="UpdateEPAsAuthenticatedUser()[pri:0, instance:com.project.testCases.UpdateEPAsInfoRequested@6a28ffa4]" started-at="2019-11-22T12:46:08Z" name="UpdateEPAsAuthenticatedUser" finished-at="2019-11-22T12:46:10Z" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateEPAsAuthenticatedUser -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateEPAsInfoRequested@6a28ffa4]" started-at="2019-11-22T12:46:10Z" name="printLog" finished-at="2019-11-22T12:46:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateEPAsInfoRequested -->
+      <class name="com.project.testCases.UpdateProjectByProjectId">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@72a7c7e0]" started-at="2019-11-22T12:45:08Z" name="setup" finished-at="2019-11-22T12:45:08Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateProject()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@72a7c7e0]" started-at="2019-11-22T12:45:08Z" name="updateProject" finished-at="2019-11-22T12:45:11Z" duration-ms="2228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProject -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateProjectByProjectId@72a7c7e0]" started-at="2019-11-22T12:45:11Z" name="printLog" finished-at="2019-11-22T12:45:11Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateProjectByProjectId -->
+      <class name="com.project.testCases.AddNoteToReviewTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.AddNoteToReviewTest@30ee2816]" started-at="2019-11-22T12:46:28Z" name="setup" finished-at="2019-11-22T12:46:28Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNoteToReview()[pri:0, instance:com.project.testCases.AddNoteToReviewTest@30ee2816]" started-at="2019-11-22T12:46:28Z" name="addNoteToReview" finished-at="2019-11-22T12:46:31Z" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNoteToReview -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.AddNoteToReviewTest@30ee2816]" started-at="2019-11-22T12:46:31Z" name="printLog" finished-at="2019-11-22T12:46:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.AddNoteToReviewTest -->
+      <class name="com.project.testCases.CreateProjectNoteTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.CreateProjectNoteTest@67a20f67]" started-at="2019-11-22T12:44:56Z" name="setup" finished-at="2019-11-22T12:44:56Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createProjectNoteAsAdmin()[pri:0, instance:com.project.testCases.CreateProjectNoteTest@67a20f67]" started-at="2019-11-22T12:44:56Z" name="createProjectNoteAsAdmin" finished-at="2019-11-22T12:44:58Z" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectNoteAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.CreateProjectNoteTest@67a20f67]" started-at="2019-11-22T12:44:58Z" name="printLog" finished-at="2019-11-22T12:44:58Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="createProjectNoteAsAuthenticatedUser()[pri:0, instance:com.project.testCases.CreateProjectNoteTest@67a20f67]" started-at="2019-11-22T12:44:58Z" name="createProjectNoteAsAuthenticatedUser" finished-at="2019-11-22T12:44:59Z" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectNoteAsAuthenticatedUser -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.CreateProjectNoteTest@67a20f67]" started-at="2019-11-22T12:44:59Z" name="printLog" finished-at="2019-11-22T12:44:59Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.CreateProjectNoteTest -->
+      <class name="com.project.testCases.CreateProjectAAPTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.CreateProjectAAPTest@9225652]" started-at="2019-11-22T12:45:19Z" name="setup" finished-at="2019-11-22T12:45:19Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createProjectAAP()[pri:0, instance:com.project.testCases.CreateProjectAAPTest@9225652]" started-at="2019-11-22T12:45:19Z" name="createProjectAAP" finished-at="2019-11-22T12:45:22Z" duration-ms="2724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectAAP -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.CreateProjectAAPTest@9225652]" started-at="2019-11-22T12:45:22Z" name="printLog" finished-at="2019-11-22T12:45:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="createProjectEP()[pri:0, instance:com.project.testCases.CreateProjectAAPTest@9225652]" started-at="2019-11-22T12:45:22Z" name="createProjectEP" finished-at="2019-11-22T12:45:25Z" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectEP -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.CreateProjectAAPTest@9225652]" started-at="2019-11-22T12:45:25Z" name="printLog" finished-at="2019-11-22T12:45:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.CreateProjectAAPTest -->
+      <class name="com.project.testCases.GetDocumentByDocumentId">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetDocumentByDocumentId@2667f029]" started-at="2019-11-22T12:44:51Z" name="setup" finished-at="2019-11-22T12:44:51Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getDocumentByDocumentId()[pri:0, instance:com.project.testCases.GetDocumentByDocumentId@2667f029]" started-at="2019-11-22T12:44:51Z" name="getDocumentByDocumentId" finished-at="2019-11-22T12:44:53Z" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDocumentByDocumentId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetDocumentByDocumentId@2667f029]" started-at="2019-11-22T12:44:53Z" name="printLog" finished-at="2019-11-22T12:44:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetDocumentByDocumentId -->
+      <class name="com.project.testCases.DeleteNoteForReviewTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.DeleteNoteForReviewTest@3f197a46]" started-at="2019-11-22T12:46:49Z" name="setup" finished-at="2019-11-22T12:46:49Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteNoteForReview()[pri:0, instance:com.project.testCases.DeleteNoteForReviewTest@3f197a46]" started-at="2019-11-22T12:46:49Z" name="deleteNoteForReview" finished-at="2019-11-22T12:47:05Z" duration-ms="15109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoteForReview -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.DeleteNoteForReviewTest@3f197a46]" started-at="2019-11-22T12:47:05Z" name="printLog" finished-at="2019-11-22T12:47:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.DeleteNoteForReviewTest -->
+      <class name="com.project.testCases.GetProjectByProjectIdTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@64cd705f]" started-at="2019-11-22T12:45:14Z" name="setup" finished-at="2019-11-22T12:45:14Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getprojectById()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@64cd705f]" started-at="2019-11-22T12:45:14Z" name="getprojectById" finished-at="2019-11-22T12:45:17Z" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getprojectById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectByProjectIdTest@64cd705f]" started-at="2019-11-22T12:45:17Z" name="printLog" finished-at="2019-11-22T12:45:17Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetProjectByProjectIdTest -->
+      <class name="com.project.scorecard.UpdateScorecardTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.UpdateScorecardTests@4b0b0854]" started-at="2019-11-22T12:46:10Z" name="setup" finished-at="2019-11-22T12:46:10Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateScorecard()[pri:0, instance:com.project.scorecard.UpdateScorecardTests@4b0b0854]" started-at="2019-11-22T12:46:10Z" name="updateScorecard" finished-at="2019-11-22T12:46:12Z" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateScorecard -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.UpdateScorecardTests@4b0b0854]" started-at="2019-11-22T12:46:12Z" name="printLog" finished-at="2019-11-22T12:46:12Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.UpdateScorecardTests -->
+      <class name="com.project.scorecard.GetScorecardByIdTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.GetScorecardByIdTest@5a63f509]" started-at="2019-11-22T12:45:50Z" name="setup" finished-at="2019-11-22T12:45:50Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getScorecardById()[pri:0, instance:com.project.scorecard.GetScorecardByIdTest@5a63f509]" started-at="2019-11-22T12:45:50Z" name="getScorecardById" finished-at="2019-11-22T12:45:52Z" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScorecardById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.GetScorecardByIdTest@5a63f509]" started-at="2019-11-22T12:45:52Z" name="printLog" finished-at="2019-11-22T12:45:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.GetScorecardByIdTest -->
+      <class name="com.project.testCases.ResubmitEP">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.ResubmitEP@48ae9b55]" started-at="2019-11-22T12:46:12Z" name="setup" finished-at="2019-11-22T12:46:12Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateCommentForEP()[pri:0, instance:com.project.testCases.ResubmitEP@48ae9b55]" started-at="2019-11-22T12:46:12Z" name="UpdateCommentForEP" finished-at="2019-11-22T12:46:14Z" duration-ms="2052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateCommentForEP -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.ResubmitEP@48ae9b55]" started-at="2019-11-22T12:46:14Z" name="printLog" finished-at="2019-11-22T12:46:14Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="reSubmitAAP()[pri:0, instance:com.project.testCases.ResubmitEP@48ae9b55]" started-at="2019-11-22T12:46:14Z" name="reSubmitAAP" finished-at="2019-11-22T12:46:19Z" duration-ms="4711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reSubmitAAP -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.ResubmitEP@48ae9b55]" started-at="2019-11-22T12:46:19Z" name="printLog" finished-at="2019-11-22T12:46:19Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.ResubmitEP -->
+      <class name="com.project.scorecard.CreateScorecardTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.CreateScorecardTests@470f1802]" started-at="2019-11-22T12:44:40Z" name="setup" finished-at="2019-11-22T12:44:40Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createScoreCardTest()[pri:0, instance:com.project.scorecard.CreateScorecardTests@470f1802]" started-at="2019-11-22T12:44:40Z" name="createScoreCardTest" finished-at="2019-11-22T12:44:41Z" duration-ms="1825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createScoreCardTest -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.CreateScorecardTests@470f1802]" started-at="2019-11-22T12:44:41Z" name="printLog" finished-at="2019-11-22T12:44:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.CreateScorecardTests -->
+      <class name="com.project.scorecard.UpdatePhaseForScorecardTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.UpdatePhaseForScorecardTests@5bd03f44]" started-at="2019-11-22T12:45:36Z" name="setup" finished-at="2019-11-22T12:45:36Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updatePhaseForScorecard()[pri:0, instance:com.project.scorecard.UpdatePhaseForScorecardTests@5bd03f44]" started-at="2019-11-22T12:45:36Z" name="updatePhaseForScorecard" finished-at="2019-11-22T12:45:38Z" duration-ms="1991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePhaseForScorecard -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.UpdatePhaseForScorecardTests@5bd03f44]" started-at="2019-11-22T12:45:38Z" name="printLog" finished-at="2019-11-22T12:45:38Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.UpdatePhaseForScorecardTests -->
+      <class name="com.project.testCases.GetProjectInvoiceStatusTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@2e4b8173]" started-at="2019-11-22T12:45:12Z" name="setup" finished-at="2019-11-22T12:45:12Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProjectInvoice()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@2e4b8173]" started-at="2019-11-22T12:45:12Z" name="getProjectInvoice" finished-at="2019-11-22T12:45:14Z" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectInvoice -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectInvoiceStatusTest@2e4b8173]" started-at="2019-11-22T12:45:14Z" name="printLog" finished-at="2019-11-22T12:45:14Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetProjectInvoiceStatusTest -->
+      <class name="com.project.testCases.UpdateAAPAsInfoRequested">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateAAPAsInfoRequested@6a400542]" started-at="2019-11-22T12:45:38Z" name="setup" finished-at="2019-11-22T12:45:38Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateAAPAsAdmin()[pri:0, instance:com.project.testCases.UpdateAAPAsInfoRequested@6a400542]" started-at="2019-11-22T12:45:38Z" name="UpdateAAPAsAdmin" finished-at="2019-11-22T12:45:40Z" duration-ms="2754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAAPAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateAAPAsInfoRequested@6a400542]" started-at="2019-11-22T12:45:40Z" name="printLog" finished-at="2019-11-22T12:45:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="UpdateAAPAsAuthenticatedUser()[pri:0, instance:com.project.testCases.UpdateAAPAsInfoRequested@6a400542]" started-at="2019-11-22T12:45:40Z" name="UpdateAAPAsAuthenticatedUser" finished-at="2019-11-22T12:45:42Z" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAAPAsAuthenticatedUser -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateAAPAsInfoRequested@6a400542]" started-at="2019-11-22T12:45:42Z" name="printLog" finished-at="2019-11-22T12:45:42Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateAAPAsInfoRequested -->
+      <class name="com.project.scorecard.GetScorecardByPhase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.GetScorecardByPhase@3e92efc3]" started-at="2019-11-22T12:44:59Z" name="setup" finished-at="2019-11-22T12:44:59Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getScorecardByPhase()[pri:0, instance:com.project.scorecard.GetScorecardByPhase@3e92efc3]" started-at="2019-11-22T12:44:59Z" name="getScorecardByPhase" finished-at="2019-11-22T12:45:02Z" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScorecardByPhase -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.GetScorecardByPhase@3e92efc3]" started-at="2019-11-22T12:45:02Z" name="printLog" finished-at="2019-11-22T12:45:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.GetScorecardByPhase -->
+      <class name="com.project.testCases.ReturnReviewAsAdminTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.ReturnReviewAsAdminTest@7a69b07]" started-at="2019-11-22T12:46:44Z" name="setup" finished-at="2019-11-22T12:46:44Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="returnReviewAsAdmin()[pri:0, instance:com.project.testCases.ReturnReviewAsAdminTest@7a69b07]" started-at="2019-11-22T12:46:44Z" name="returnReviewAsAdmin" finished-at="2019-11-22T12:46:47Z" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnReviewAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.ReturnReviewAsAdminTest@7a69b07]" started-at="2019-11-22T12:46:47Z" name="printLog" finished-at="2019-11-22T12:46:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.ReturnReviewAsAdminTest -->
+      <class name="com.project.testCases.DeleteDocumentByDocumentId">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.DeleteDocumentByDocumentId@5e82df6a]" started-at="2019-11-22T12:46:47Z" name="setup" finished-at="2019-11-22T12:46:47Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteDocumentBydocumentId()[pri:0, instance:com.project.testCases.DeleteDocumentByDocumentId@5e82df6a]" started-at="2019-11-22T12:46:47Z" name="deleteDocumentBydocumentId" finished-at="2019-11-22T12:46:49Z" duration-ms="1916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDocumentBydocumentId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.DeleteDocumentByDocumentId@5e82df6a]" started-at="2019-11-22T12:46:49Z" name="printLog" finished-at="2019-11-22T12:46:49Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.DeleteDocumentByDocumentId -->
+      <class name="com.project.testCases.GetProjectDocumentsAllTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectDocumentsAllTest@353d0772]" started-at="2019-11-22T12:44:41Z" name="setup" finished-at="2019-11-22T12:44:41Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProjectsAllDocuments()[pri:0, instance:com.project.testCases.GetProjectDocumentsAllTest@353d0772]" started-at="2019-11-22T12:44:41Z" name="getProjectsAllDocuments" finished-at="2019-11-22T12:44:43Z" duration-ms="1933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectsAllDocuments -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectDocumentsAllTest@353d0772]" started-at="2019-11-22T12:44:43Z" name="printLog" finished-at="2019-11-22T12:44:43Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetProjectDocumentsAllTest -->
+      <class name="com.project.scorecard.DeleteNoteByNoteidTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.DeleteNoteByNoteidTest@636be97c]" started-at="2019-11-22T12:47:05Z" name="setup" finished-at="2019-11-22T12:47:05Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteScorecardNoteById()[pri:0, instance:com.project.scorecard.DeleteNoteByNoteidTest@636be97c]" started-at="2019-11-22T12:47:05Z" name="DeleteScorecardNoteById" finished-at="2019-11-22T12:47:06Z" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteScorecardNoteById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.DeleteNoteByNoteidTest@636be97c]" started-at="2019-11-22T12:47:06Z" name="printLog" finished-at="2019-11-22T12:47:06Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.DeleteNoteByNoteidTest -->
+      <class name="com.project.scorecard.FilterScorecardTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.FilterScorecardTests@63021689]" started-at="2019-11-22T12:44:43Z" name="setup" finished-at="2019-11-22T12:44:43Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterScorecard()[pri:0, instance:com.project.scorecard.FilterScorecardTests@63021689]" started-at="2019-11-22T12:44:43Z" name="filterScorecard" finished-at="2019-11-22T12:44:49Z" duration-ms="5946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterScorecard -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.FilterScorecardTests@63021689]" started-at="2019-11-22T12:44:49Z" name="printLog" finished-at="2019-11-22T12:44:51Z" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.FilterScorecardTests -->
+      <class name="com.project.scorecard.AddScoreInImplementationScorecardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.AddScoreInImplementationScorecardTest@29626d54]" started-at="2019-11-22T12:45:42Z" name="setup" finished-at="2019-11-22T12:45:42Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddScoreInImplemenPhaseScorecardTest()[pri:0, instance:com.project.scorecard.AddScoreInImplementationScorecardTest@29626d54]" started-at="2019-11-22T12:45:42Z" name="AddScoreInImplemenPhaseScorecardTest" finished-at="2019-11-22T12:45:44Z" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddScoreInImplemenPhaseScorecardTest -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.AddScoreInImplementationScorecardTest@29626d54]" started-at="2019-11-22T12:45:44Z" name="printLog" finished-at="2019-11-22T12:45:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.AddScoreInImplementationScorecardTest -->
+      <class name="com.project.scorecard.GetScorecardDocumentByPartidTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.GetScorecardDocumentByPartidTest@34b7ac2f]" started-at="2019-11-22T12:45:59Z" name="setup" finished-at="2019-11-22T12:45:59Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getScorecardDocumentByPartid()[pri:0, instance:com.project.scorecard.GetScorecardDocumentByPartidTest@34b7ac2f]" started-at="2019-11-22T12:45:59Z" name="getScorecardDocumentByPartid" finished-at="2019-11-22T12:46:01Z" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScorecardDocumentByPartid -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.GetScorecardDocumentByPartidTest@34b7ac2f]" started-at="2019-11-22T12:46:01Z" name="printLog" finished-at="2019-11-22T12:46:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.GetScorecardDocumentByPartidTest -->
+      <class name="com.project.testCases.GetProjectNoteByNoteId">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetProjectNoteByNoteId@13e39c73]" started-at="2019-11-22T12:45:11Z" name="setup" finished-at="2019-11-22T12:45:11Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProjectNoteByNoteId()[pri:0, instance:com.project.testCases.GetProjectNoteByNoteId@13e39c73]" started-at="2019-11-22T12:45:11Z" name="getProjectNoteByNoteId" finished-at="2019-11-22T12:45:12Z" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectNoteByNoteId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetProjectNoteByNoteId@13e39c73]" started-at="2019-11-22T12:45:12Z" name="printLog" finished-at="2019-11-22T12:45:12Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetProjectNoteByNoteId -->
+      <class name="com.project.scorecard.GetScorecardDocumentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.GetScorecardDocumentTest@e056f20]" started-at="2019-11-22T12:46:04Z" name="setup" finished-at="2019-11-22T12:46:04Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getScorecardUploadedDocument()[pri:0, instance:com.project.scorecard.GetScorecardDocumentTest@e056f20]" started-at="2019-11-22T12:46:04Z" name="getScorecardUploadedDocument" finished-at="2019-11-22T12:46:06Z" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScorecardUploadedDocument -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.GetScorecardDocumentTest@e056f20]" started-at="2019-11-22T12:46:06Z" name="printLog" finished-at="2019-11-22T12:46:06Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.GetScorecardDocumentTest -->
+      <class name="com.project.testCases.GetReviewByReviewId">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetReviewByReviewId@5c30a9b0]" started-at="2019-11-22T12:46:35Z" name="setup" finished-at="2019-11-22T12:46:35Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getReviewByReviewId()[pri:0, instance:com.project.testCases.GetReviewByReviewId@5c30a9b0]" started-at="2019-11-22T12:46:35Z" name="getReviewByReviewId" finished-at="2019-11-22T12:46:37Z" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReviewByReviewId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetReviewByReviewId@5c30a9b0]" started-at="2019-11-22T12:46:37Z" name="printLog" finished-at="2019-11-22T12:46:37Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetReviewByReviewId -->
+      <class name="com.project.testCases.ResubmitAAP">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.ResubmitAAP@6580cfdd]" started-at="2019-11-22T12:45:44Z" name="setup" finished-at="2019-11-22T12:45:44Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateComment()[pri:0, instance:com.project.testCases.ResubmitAAP@6580cfdd]" started-at="2019-11-22T12:45:44Z" name="UpdateComment" finished-at="2019-11-22T12:45:46Z" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateComment -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.ResubmitAAP@6580cfdd]" started-at="2019-11-22T12:45:46Z" name="printLog" finished-at="2019-11-22T12:45:46Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="reSubmitAAP()[pri:0, instance:com.project.testCases.ResubmitAAP@6580cfdd]" started-at="2019-11-22T12:45:46Z" name="reSubmitAAP" finished-at="2019-11-22T12:45:50Z" duration-ms="3347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reSubmitAAP -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.ResubmitAAP@6580cfdd]" started-at="2019-11-22T12:45:50Z" name="printLog" finished-at="2019-11-22T12:45:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.ResubmitAAP -->
+      <class name="com.project.testCases.UpdateNoteForReviewTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateNoteForReviewTest@31d7b7bf]" started-at="2019-11-22T12:46:31Z" name="setup" finished-at="2019-11-22T12:46:31Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateNoteForReview()[pri:0, instance:com.project.testCases.UpdateNoteForReviewTest@31d7b7bf]" started-at="2019-11-22T12:46:31Z" name="updateNoteForReview" finished-at="2019-11-22T12:46:33Z" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNoteForReview -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateNoteForReviewTest@31d7b7bf]" started-at="2019-11-22T12:46:33Z" name="printLog" finished-at="2019-11-22T12:46:33Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateNoteForReviewTest -->
+      <class name="com.project.testCases.RegisterProjectTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.RegisterProjectTest@1622f1b]" started-at="2019-11-22T12:45:04Z" name="setup" finished-at="2019-11-22T12:45:04Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerProject()[pri:0, instance:com.project.testCases.RegisterProjectTest@1622f1b]" started-at="2019-11-22T12:45:04Z" name="registerProject" finished-at="2019-11-22T12:45:07Z" duration-ms="2809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerProject -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.RegisterProjectTest@1622f1b]" started-at="2019-11-22T12:45:07Z" name="printLog" finished-at="2019-11-22T12:45:07Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.RegisterProjectTest -->
+      <class name="com.project.scorecard.UploadDocumentForScorecardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.UploadDocumentForScorecardTest@6e4784bc]" started-at="2019-11-22T12:45:54Z" name="setup" finished-at="2019-11-22T12:45:54Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="uploadDocumentForScorecard()[pri:0, instance:com.project.scorecard.UploadDocumentForScorecardTest@6e4784bc]" started-at="2019-11-22T12:45:54Z" name="uploadDocumentForScorecard" finished-at="2019-11-22T12:45:57Z" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadDocumentForScorecard -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.UploadDocumentForScorecardTest@6e4784bc]" started-at="2019-11-22T12:45:57Z" name="printLog" finished-at="2019-11-22T12:45:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.UploadDocumentForScorecardTest -->
+      <class name="com.project.testCases.GetAAPTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:27Z" name="setup" finished-at="2019-11-22T12:45:27Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAAPAll()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:27Z" name="getAAPAll" finished-at="2019-11-22T12:45:29Z" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAAPAll -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:29Z" name="printLog" finished-at="2019-11-22T12:45:29Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="getAAPAllAsAdmin()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:29Z" name="getAAPAllAsAdmin" finished-at="2019-11-22T12:45:32Z" duration-ms="2578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAAPAllAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:32Z" name="printLog" finished-at="2019-11-22T12:45:32Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="getAAPbyAAPId()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:32Z" name="getAAPbyAAPId" finished-at="2019-11-22T12:45:34Z" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAAPbyAAPId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:34Z" name="printLog" finished-at="2019-11-22T12:45:34Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="getAAPbyAAPIdAsAdmin()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:34Z" name="getAAPbyAAPIdAsAdmin" finished-at="2019-11-22T12:45:36Z" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAAPbyAAPIdAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.GetAAPTests@654f0d9c]" started-at="2019-11-22T12:45:36Z" name="printLog" finished-at="2019-11-22T12:45:36Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.GetAAPTests -->
+      <class name="com.project.testCases.ResubmitReviewTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.ResubmitReviewTests@1139b2f3]" started-at="2019-11-22T12:46:40Z" name="setup" finished-at="2019-11-22T12:46:40Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="resubmitReview()[pri:0, instance:com.project.testCases.ResubmitReviewTests@1139b2f3]" started-at="2019-11-22T12:46:40Z" name="resubmitReview" finished-at="2019-11-22T12:46:44Z" duration-ms="4361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resubmitReview -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.ResubmitReviewTests@1139b2f3]" started-at="2019-11-22T12:46:44Z" name="printLog" finished-at="2019-11-22T12:46:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.ResubmitReviewTests -->
+      <class name="com.project.scorecard.AttachPartsToScorecardTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.AttachPartsToScorecardTests@703580bf]" started-at="2019-11-22T12:44:53Z" name="setup" finished-at="2019-11-22T12:44:53Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="attachOptiPartsToScorecardInAssessPhase()[pri:0, instance:com.project.scorecard.AttachPartsToScorecardTests@703580bf]" started-at="2019-11-22T12:44:53Z" name="attachOptiPartsToScorecardInAssessPhase" finished-at="2019-11-22T12:44:56Z" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachOptiPartsToScorecardInAssessPhase -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.AttachPartsToScorecardTests@703580bf]" started-at="2019-11-22T12:44:56Z" name="printLog" finished-at="2019-11-22T12:44:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.AttachPartsToScorecardTests -->
+      <class name="com.project.testCases.UpdateProjectNoteTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.testCases.UpdateProjectNoteTest@a9cd3b1]" started-at="2019-11-22T12:45:07Z" name="setup" finished-at="2019-11-22T12:45:07Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateProjectNoteAsAdmin()[pri:0, instance:com.project.testCases.UpdateProjectNoteTest@a9cd3b1]" started-at="2019-11-22T12:45:07Z" name="updateProjectNoteAsAdmin" finished-at="2019-11-22T12:45:08Z" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProjectNoteAsAdmin -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.testCases.UpdateProjectNoteTest@a9cd3b1]" started-at="2019-11-22T12:45:08Z" name="printLog" finished-at="2019-11-22T12:45:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.testCases.UpdateProjectNoteTest -->
+      <class name="com.project.scorecard.GetNoteByPartIdTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project.scorecard.GetNoteByPartIdTest@17046283]" started-at="2019-11-22T12:45:25Z" name="setup" finished-at="2019-11-22T12:45:25Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getScorecardNoteByPartId()[pri:0, instance:com.project.scorecard.GetNoteByPartIdTest@17046283]" started-at="2019-11-22T12:45:25Z" name="getScorecardNoteByPartId" finished-at="2019-11-22T12:45:27Z" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScorecardNoteByPartId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.project.scorecard.GetNoteByPartIdTest@17046283]" started-at="2019-11-22T12:45:27Z" name="printLog" finished-at="2019-11-22T12:45:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.project.scorecard.GetNoteByPartIdTest -->
+    </test> <!-- ProjectsAPITest -->
+    <test started-at="2019-11-22T07:17:09Z" name="PortfolioAPITest" finished-at="2019-11-22T07:19:01Z" duration-ms="111971">
+      <class name="com.portfolio.testCases.DownloadPortfolioScorecardTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.DownloadPortfolioScorecardTests@3bb9a3ff]" started-at="2019-11-22T12:47:43Z" name="setup" finished-at="2019-11-22T12:47:43Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="downloadPortfolioScorecard()[pri:0, instance:com.portfolio.testCases.DownloadPortfolioScorecardTests@3bb9a3ff]" started-at="2019-11-22T12:47:43Z" name="downloadPortfolioScorecard" finished-at="2019-11-22T12:47:45Z" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadPortfolioScorecard -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.DownloadPortfolioScorecardTests@3bb9a3ff]" started-at="2019-11-22T12:47:45Z" name="printLog" finished-at="2019-11-22T12:47:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.DownloadPortfolioScorecardTests -->
+      <class name="com.portfolio.testCases.GetAllNotesByPortfolioIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetAllNotesByPortfolioIdTests@694abbdc]" started-at="2019-11-22T12:47:52Z" name="setup" finished-at="2019-11-22T12:47:52Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllNotesByPortfolioId()[pri:0, instance:com.portfolio.testCases.GetAllNotesByPortfolioIdTests@694abbdc]" started-at="2019-11-22T12:47:52Z" name="getAllNotesByPortfolioId" finished-at="2019-11-22T12:47:54Z" duration-ms="1588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNotesByPortfolioId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetAllNotesByPortfolioIdTests@694abbdc]" started-at="2019-11-22T12:47:54Z" name="printLog" finished-at="2019-11-22T12:47:54Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetAllNotesByPortfolioIdTests -->
+      <class name="com.portfolio.testCases.GetScorecardConceptPhaseSummaryTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetScorecardConceptPhaseSummaryTests@74e52303]" started-at="2019-11-22T12:47:35Z" name="setup" finished-at="2019-11-22T12:47:35Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterScorecardByConcept()[pri:0, instance:com.portfolio.testCases.GetScorecardConceptPhaseSummaryTests@74e52303]" started-at="2019-11-22T12:47:35Z" name="filterScorecardByConcept" finished-at="2019-11-22T12:47:37Z" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterScorecardByConcept -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetScorecardConceptPhaseSummaryTests@74e52303]" started-at="2019-11-22T12:47:37Z" name="printLog" finished-at="2019-11-22T12:47:37Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetScorecardConceptPhaseSummaryTests -->
+      <class name="com.portfolio.testCases.GetProjectsByPortfolioIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetProjectsByPortfolioIdTests@1fa268de]" started-at="2019-11-22T12:48:27Z" name="setup" finished-at="2019-11-22T12:48:27Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProjectsByPortfolioId()[pri:0, instance:com.portfolio.testCases.GetProjectsByPortfolioIdTests@1fa268de]" started-at="2019-11-22T12:48:27Z" name="getProjectsByPortfolioId" finished-at="2019-11-22T12:48:29Z" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectsByPortfolioId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetProjectsByPortfolioIdTests@1fa268de]" started-at="2019-11-22T12:48:29Z" name="printLog" finished-at="2019-11-22T12:48:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetProjectsByPortfolioIdTests -->
+      <class name="com.portfolio.testCases.PortfolioBulkUpdateTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:47Z" name="setup" finished-at="2019-11-22T12:48:47Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="portfolioBulkUpdateConstructionStatus()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:47Z" name="portfolioBulkUpdateConstructionStatus" finished-at="2019-11-22T12:48:49Z" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portfolioBulkUpdateConstructionStatus -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:49Z" name="printLog" finished-at="2019-11-22T12:48:49Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="portfolioBulkUpdateFund()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:49Z" name="portfolioBulkUpdateFund" finished-at="2019-11-22T12:48:51Z" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portfolioBulkUpdateFund -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:51Z" name="printLog" finished-at="2019-11-22T12:48:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="portfolioBulkUpdateIndustry()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:51Z" name="portfolioBulkUpdateIndustry" finished-at="2019-11-22T12:48:53Z" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portfolioBulkUpdateIndustry -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:53Z" name="printLog" finished-at="2019-11-22T12:48:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="portfolioBulkUpdateOwnerName()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:53Z" name="portfolioBulkUpdateOwnerName" finished-at="2019-11-22T12:48:55Z" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portfolioBulkUpdateOwnerName -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:55Z" name="printLog" finished-at="2019-11-22T12:48:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="portfolioBulkUpdateprojectpublic()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:55Z" name="portfolioBulkUpdateprojectpublic" finished-at="2019-11-22T12:48:58Z" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portfolioBulkUpdateprojectpublic -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.PortfolioBulkUpdateTests@4cc451f2]" started-at="2019-11-22T12:48:58Z" name="printLog" finished-at="2019-11-22T12:48:58Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.PortfolioBulkUpdateTests -->
+      <class name="com.portfolio.testCases.GetVersionPhaseSummaryTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetVersionPhaseSummaryTests@47af7f3d]" started-at="2019-11-22T12:47:37Z" name="setup" finished-at="2019-11-22T12:47:37Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getVersionPhaseSummaryByScorecardId()[pri:0, instance:com.portfolio.testCases.GetVersionPhaseSummaryTests@47af7f3d]" started-at="2019-11-22T12:47:37Z" name="getVersionPhaseSummaryByScorecardId" finished-at="2019-11-22T12:47:42Z" duration-ms="4485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVersionPhaseSummaryByScorecardId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetVersionPhaseSummaryTests@47af7f3d]" started-at="2019-11-22T12:47:42Z" name="printLog" finished-at="2019-11-22T12:47:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetVersionPhaseSummaryTests -->
+      <class name="com.portfolio.testCases.UpdateSurveyStatusTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.UpdateSurveyStatusTests@3ce1e309]" started-at="2019-11-22T12:47:26Z" name="setup" finished-at="2019-11-22T12:47:26Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateSurveyStatusToCompleted()[pri:0, instance:com.portfolio.testCases.UpdateSurveyStatusTests@3ce1e309]" started-at="2019-11-22T12:47:26Z" name="updateSurveyStatusToCompleted" finished-at="2019-11-22T12:47:27Z" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateSurveyStatusToCompleted -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.UpdateSurveyStatusTests@3ce1e309]" started-at="2019-11-22T12:47:27Z" name="printLog" finished-at="2019-11-22T12:47:27Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="updateSurveyStatusToStarted()[pri:0, instance:com.portfolio.testCases.UpdateSurveyStatusTests@3ce1e309]" started-at="2019-11-22T12:47:27Z" name="updateSurveyStatusToStarted" finished-at="2019-11-22T12:47:29Z" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateSurveyStatusToStarted -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.UpdateSurveyStatusTests@3ce1e309]" started-at="2019-11-22T12:47:29Z" name="printLog" finished-at="2019-11-22T12:47:29Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.UpdateSurveyStatusTests -->
+      <class name="com.portfolio.testCases.GetPortfolioProjectSummaryTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioProjectSummaryTests@a514af7]" started-at="2019-11-22T12:48:33Z" name="setup" finished-at="2019-11-22T12:48:33Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioProjectSummary()[pri:0, instance:com.portfolio.testCases.GetPortfolioProjectSummaryTests@a514af7]" started-at="2019-11-22T12:48:33Z" name="getPortfolioProjectSummary" finished-at="2019-11-22T12:48:34Z" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioProjectSummary -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioProjectSummaryTests@a514af7]" started-at="2019-11-22T12:48:34Z" name="printLog" finished-at="2019-11-22T12:48:34Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioProjectSummaryTests -->
+      <class name="com.portfolio.testCases.DeletePortfolioDocByDocIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.DeletePortfolioDocByDocIdTests@6379eb]" started-at="2019-11-22T12:48:58Z" name="setup" finished-at="2019-11-22T12:48:58Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deletePortfolioDocByDocId()[pri:0, instance:com.portfolio.testCases.DeletePortfolioDocByDocIdTests@6379eb]" started-at="2019-11-22T12:48:58Z" name="deletePortfolioDocByDocId" finished-at="2019-11-22T12:48:59Z" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolioDocByDocId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.DeletePortfolioDocByDocIdTests@6379eb]" started-at="2019-11-22T12:48:59Z" name="printLog" finished-at="2019-11-22T12:48:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.DeletePortfolioDocByDocIdTests -->
+      <class name="com.portfolio.testCases.GetPortfolioSubsetsTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioSubsetsTests@4fb0f2b9]" started-at="2019-11-22T12:48:40Z" name="setup" finished-at="2019-11-22T12:48:40Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioSubsets()[pri:0, instance:com.portfolio.testCases.GetPortfolioSubsetsTests@4fb0f2b9]" started-at="2019-11-22T12:48:40Z" name="getPortfolioSubsets" finished-at="2019-11-22T12:48:42Z" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioSubsets -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioSubsetsTests@4fb0f2b9]" started-at="2019-11-22T12:48:42Z" name="printLog" finished-at="2019-11-22T12:48:42Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioSubsetsTests -->
+      <class name="com.portfolio.testCases.GetPortfolioSubsetByIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioSubsetByIdTests@79924b]" started-at="2019-11-22T12:48:42Z" name="setup" finished-at="2019-11-22T12:48:42Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioSubsetById()[pri:0, instance:com.portfolio.testCases.GetPortfolioSubsetByIdTests@79924b]" started-at="2019-11-22T12:48:42Z" name="getPortfolioSubsetById" finished-at="2019-11-22T12:48:43Z" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioSubsetById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioSubsetByIdTests@79924b]" started-at="2019-11-22T12:48:43Z" name="printLog" finished-at="2019-11-22T12:48:43Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioSubsetByIdTests -->
+      <class name="com.portfolio.testCases.GetPortfolioWizardsSummaryTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioWizardsSummaryTests@3e58a80e]" started-at="2019-11-22T12:48:37Z" name="setup" finished-at="2019-11-22T12:48:37Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioWizardsSummary()[pri:0, instance:com.portfolio.testCases.GetPortfolioWizardsSummaryTests@3e58a80e]" started-at="2019-11-22T12:48:37Z" name="getPortfolioWizardsSummary" finished-at="2019-11-22T12:48:38Z" duration-ms="1651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioWizardsSummary -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioWizardsSummaryTests@3e58a80e]" started-at="2019-11-22T12:48:38Z" name="printLog" finished-at="2019-11-22T12:48:38Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioWizardsSummaryTests -->
+      <class name="com.portfolio.testCases.UpdatePortfolioDocumentTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.UpdatePortfolioDocumentTests@5ffead27]" started-at="2019-11-22T12:47:57Z" name="setup" finished-at="2019-11-22T12:47:57Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updatePortfolioDocument()[pri:0, instance:com.portfolio.testCases.UpdatePortfolioDocumentTests@5ffead27]" started-at="2019-11-22T12:47:57Z" name="updatePortfolioDocument" finished-at="2019-11-22T12:47:59Z" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePortfolioDocument -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.UpdatePortfolioDocumentTests@5ffead27]" started-at="2019-11-22T12:47:59Z" name="printLog" finished-at="2019-11-22T12:47:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.UpdatePortfolioDocumentTests -->
+      <class name="com.portfolio.testCases.FilterScorecardByConcept">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.FilterScorecardByConcept@6aba2b86]" started-at="2019-11-22T12:47:29Z" name="setup" finished-at="2019-11-22T12:47:29Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterScorecardByConcept()[pri:0, instance:com.portfolio.testCases.FilterScorecardByConcept@6aba2b86]" started-at="2019-11-22T12:47:29Z" name="filterScorecardByConcept" finished-at="2019-11-22T12:47:31Z" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterScorecardByConcept -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.FilterScorecardByConcept@6aba2b86]" started-at="2019-11-22T12:47:31Z" name="printLog" finished-at="2019-11-22T12:47:31Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.FilterScorecardByConcept -->
+      <class name="com.portfolio.testCases.GetPortfolioWizardProjectsTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioWizardProjectsTests@6b927fb]" started-at="2019-11-22T12:48:34Z" name="setup" finished-at="2019-11-22T12:48:34Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioWizardProjects()[pri:0, instance:com.portfolio.testCases.GetPortfolioWizardProjectsTests@6b927fb]" started-at="2019-11-22T12:48:34Z" name="getPortfolioWizardProjects" finished-at="2019-11-22T12:48:37Z" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioWizardProjects -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioWizardProjectsTests@6b927fb]" started-at="2019-11-22T12:48:37Z" name="printLog" finished-at="2019-11-22T12:48:37Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioWizardProjectsTests -->
+      <class name="com.portfolio.testCases.GetAllDcoumentsByPortfolioIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetAllDcoumentsByPortfolioIdTests@6356695f]" started-at="2019-11-22T12:47:59Z" name="setup" finished-at="2019-11-22T12:47:59Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllDocumentsByPortfolioId()[pri:0, instance:com.portfolio.testCases.GetAllDcoumentsByPortfolioIdTests@6356695f]" started-at="2019-11-22T12:47:59Z" name="getAllDocumentsByPortfolioId" finished-at="2019-11-22T12:48:00Z" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllDocumentsByPortfolioId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetAllDcoumentsByPortfolioIdTests@6356695f]" started-at="2019-11-22T12:48:00Z" name="printLog" finished-at="2019-11-22T12:48:00Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetAllDcoumentsByPortfolioIdTests -->
+      <class name="com.portfolio.testCases.CreateSubsetByPortfolioIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.CreateSubsetByPortfolioIdTests@4fb61f4a]" started-at="2019-11-22T12:48:38Z" name="setup" finished-at="2019-11-22T12:48:38Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createSubsetByPortfolioId()[pri:0, instance:com.portfolio.testCases.CreateSubsetByPortfolioIdTests@4fb61f4a]" started-at="2019-11-22T12:48:38Z" name="createSubsetByPortfolioId" finished-at="2019-11-22T12:48:40Z" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSubsetByPortfolioId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.CreateSubsetByPortfolioIdTests@4fb61f4a]" started-at="2019-11-22T12:48:40Z" name="printLog" finished-at="2019-11-22T12:48:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.CreateSubsetByPortfolioIdTests -->
+      <class name="com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests@359f7cdf]" started-at="2019-11-22T12:48:04Z" name="setup" finished-at="2019-11-22T12:48:04Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addMultipleSQFTPropertiesToPortfolio()[pri:0, instance:com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests@359f7cdf]" started-at="2019-11-22T12:48:04Z" name="addMultipleSQFTPropertiesToPortfolio" finished-at="2019-11-22T12:48:20Z" duration-ms="16233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleSQFTPropertiesToPortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests@359f7cdf]" started-at="2019-11-22T12:48:20Z" name="printLog" finished-at="2019-11-22T12:48:20Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+        <test-method signature="addMultipleSQMPropertiesToPortfolio()[pri:0, instance:com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests@359f7cdf]" started-at="2019-11-22T12:48:20Z" name="addMultipleSQMPropertiesToPortfolio" finished-at="2019-11-22T12:48:27Z" duration-ms="6908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleSQMPropertiesToPortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests@359f7cdf]" started-at="2019-11-22T12:48:27Z" name="printLog" finished-at="2019-11-22T12:48:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.AddMultiplePropertiesToPortfolioTests -->
+      <class name="com.portfolio.testCases.GetPortfolioInvoiceTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioInvoiceTests@8dbdac1]" started-at="2019-11-22T12:47:16Z" name="setup" finished-at="2019-11-22T12:47:16Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioInvoices()[pri:0, instance:com.portfolio.testCases.GetPortfolioInvoiceTests@8dbdac1]" started-at="2019-11-22T12:47:16Z" name="getPortfolioInvoices" finished-at="2019-11-22T12:47:17Z" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioInvoices -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioInvoiceTests@8dbdac1]" started-at="2019-11-22T12:47:17Z" name="printLog" finished-at="2019-11-22T12:47:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioInvoiceTests -->
+      <class name="com.portfolio.testCases.GetProjectLocationsTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetProjectLocationsTests@4f6ee6e4]" started-at="2019-11-22T12:48:29Z" name="setup" finished-at="2019-11-22T12:48:29Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioProjectLocations()[pri:0, instance:com.portfolio.testCases.GetProjectLocationsTests@4f6ee6e4]" started-at="2019-11-22T12:48:29Z" name="getPortfolioProjectLocations" finished-at="2019-11-22T12:48:31Z" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioProjectLocations -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetProjectLocationsTests@4f6ee6e4]" started-at="2019-11-22T12:48:31Z" name="printLog" finished-at="2019-11-22T12:48:31Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetProjectLocationsTests -->
+      <class name="com.portfolio.testCases.AddNoteToPortfolioTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.AddNoteToPortfolioTests@5af3afd9]" started-at="2019-11-22T12:47:47Z" name="setup" finished-at="2019-11-22T12:47:47Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNoteToPortfolio()[pri:0, instance:com.portfolio.testCases.AddNoteToPortfolioTests@5af3afd9]" started-at="2019-11-22T12:47:47Z" name="addNoteToPortfolio" finished-at="2019-11-22T12:47:49Z" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNoteToPortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.AddNoteToPortfolioTests@5af3afd9]" started-at="2019-11-22T12:47:49Z" name="printLog" finished-at="2019-11-22T12:47:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.AddNoteToPortfolioTests -->
+      <class name="com.portfolio.testCases.GetPortfolioByIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioByIdTests@6e20b53a]" started-at="2019-11-22T12:47:17Z" name="setup" finished-at="2019-11-22T12:47:17Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioById()[pri:0, instance:com.portfolio.testCases.GetPortfolioByIdTests@6e20b53a]" started-at="2019-11-22T12:47:17Z" name="getPortfolioById" finished-at="2019-11-22T12:47:19Z" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioByIdTests@6e20b53a]" started-at="2019-11-22T12:47:19Z" name="printLog" finished-at="2019-11-22T12:47:19Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioByIdTests -->
+      <class name="com.portfolio.testCases.GetSubsetProjectsByIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetSubsetProjectsByIdTests@4a94ee4]" started-at="2019-11-22T12:48:45Z" name="setup" finished-at="2019-11-22T12:48:45Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getSubsetProjectsById()[pri:0, instance:com.portfolio.testCases.GetSubsetProjectsByIdTests@4a94ee4]" started-at="2019-11-22T12:48:45Z" name="getSubsetProjectsById" finished-at="2019-11-22T12:48:47Z" duration-ms="1558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSubsetProjectsById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetSubsetProjectsByIdTests@4a94ee4]" started-at="2019-11-22T12:48:47Z" name="printLog" finished-at="2019-11-22T12:48:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetSubsetProjectsByIdTests -->
+      <class name="com.portfolio.testCases.DeletePortfolioNoteByIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.DeletePortfolioNoteByIdTests@294425a7]" started-at="2019-11-22T12:48:59Z" name="setup" finished-at="2019-11-22T12:48:59Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deletePortfolioNoteById()[pri:0, instance:com.portfolio.testCases.DeletePortfolioNoteByIdTests@294425a7]" started-at="2019-11-22T12:48:59Z" name="deletePortfolioNoteById" finished-at="2019-11-22T12:49:01Z" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolioNoteById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.DeletePortfolioNoteByIdTests@294425a7]" started-at="2019-11-22T12:49:01Z" name="printLog" finished-at="2019-11-22T12:49:01Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.DeletePortfolioNoteByIdTests -->
+      <class name="com.portfolio.testCases.AddDocumentToPortfolioTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.AddDocumentToPortfolioTests@2e005c4b]" started-at="2019-11-22T12:47:54Z" name="setup" finished-at="2019-11-22T12:47:54Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addDocumentToPortfolio()[pri:0, instance:com.portfolio.testCases.AddDocumentToPortfolioTests@2e005c4b]" started-at="2019-11-22T12:47:54Z" name="addDocumentToPortfolio" finished-at="2019-11-22T12:47:55Z" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDocumentToPortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.AddDocumentToPortfolioTests@2e005c4b]" started-at="2019-11-22T12:47:55Z" name="printLog" finished-at="2019-11-22T12:47:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.AddDocumentToPortfolioTests -->
+      <class name="com.portfolio.testCases.GetPorfolioMembersTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPorfolioMembersTests@661972b0]" started-at="2019-11-22T12:47:45Z" name="setup" finished-at="2019-11-22T12:47:45Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioMembers()[pri:0, instance:com.portfolio.testCases.GetPorfolioMembersTests@661972b0]" started-at="2019-11-22T12:47:45Z" name="getPortfolioMembers" finished-at="2019-11-22T12:47:47Z" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioMembers -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPorfolioMembersTests@661972b0]" started-at="2019-11-22T12:47:47Z" name="printLog" finished-at="2019-11-22T12:47:47Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPorfolioMembersTests -->
+      <class name="com.portfolio.testCases.ListUserPortfolioTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.ListUserPortfolioTests@5e0826e7]" started-at="2019-11-22T12:47:11Z" name="setup" finished-at="2019-11-22T12:47:11Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="listUserPortfolios()[pri:0, instance:com.portfolio.testCases.ListUserPortfolioTests@5e0826e7]" started-at="2019-11-22T12:47:11Z" name="listUserPortfolios" finished-at="2019-11-22T12:47:13Z" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUserPortfolios -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.ListUserPortfolioTests@5e0826e7]" started-at="2019-11-22T12:47:13Z" name="printLog" finished-at="2019-11-22T12:47:13Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.ListUserPortfolioTests -->
+      <class name="com.portfolio.testCases.GetPortfolioNoteByNoteIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioNoteByNoteIdTests@323b36e0]" started-at="2019-11-22T12:47:49Z" name="setup" finished-at="2019-11-22T12:47:49Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioNoteByNoteId()[pri:0, instance:com.portfolio.testCases.GetPortfolioNoteByNoteIdTests@323b36e0]" started-at="2019-11-22T12:47:49Z" name="getPortfolioNoteByNoteId" finished-at="2019-11-22T12:47:50Z" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioNoteByNoteId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioNoteByNoteIdTests@323b36e0]" started-at="2019-11-22T12:47:50Z" name="printLog" finished-at="2019-11-22T12:47:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioNoteByNoteIdTests -->
+      <class name="com.portfolio.testCases.AnalyzePortfolioScoreByScorecardIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.AnalyzePortfolioScoreByScorecardIdTests@7c729a55]" started-at="2019-11-22T12:47:42Z" name="setup" finished-at="2019-11-22T12:47:42Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="analyzePortfolioScoreByScorecardId()[pri:0, instance:com.portfolio.testCases.AnalyzePortfolioScoreByScorecardIdTests@7c729a55]" started-at="2019-11-22T12:47:42Z" name="analyzePortfolioScoreByScorecardId" finished-at="2019-11-22T12:47:43Z" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyzePortfolioScoreByScorecardId -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.AnalyzePortfolioScoreByScorecardIdTests@7c729a55]" started-at="2019-11-22T12:47:43Z" name="printLog" finished-at="2019-11-22T12:47:43Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.AnalyzePortfolioScoreByScorecardIdTests -->
+      <class name="com.portfolio.testCases.GetRecommendationToScorecardTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetRecommendationToScorecardTests@158da8e]" started-at="2019-11-22T12:47:31Z" name="setup" finished-at="2019-11-22T12:47:31Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getRecommendationToScorecard()[pri:0, instance:com.portfolio.testCases.GetRecommendationToScorecardTests@158da8e]" started-at="2019-11-22T12:47:31Z" name="getRecommendationToScorecard" finished-at="2019-11-22T12:47:35Z" duration-ms="3642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecommendationToScorecard -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetRecommendationToScorecardTests@158da8e]" started-at="2019-11-22T12:47:35Z" name="printLog" finished-at="2019-11-22T12:47:35Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetRecommendationToScorecardTests -->
+      <class name="com.portfolio.testCases.StorePortfolioTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.StorePortfolioTests@6dc17b83]" started-at="2019-11-22T12:47:09Z" name="setup" finished-at="2019-11-22T12:47:09Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="storePortfolio()[pri:0, instance:com.portfolio.testCases.StorePortfolioTests@6dc17b83]" started-at="2019-11-22T12:47:09Z" name="storePortfolio" finished-at="2019-11-22T12:47:11Z" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storePortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.StorePortfolioTests@6dc17b83]" started-at="2019-11-22T12:47:11Z" name="printLog" finished-at="2019-11-22T12:47:11Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.StorePortfolioTests -->
+      <class name="com.portfolio.testCases.UpdateNoteToPortfolioTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.UpdateNoteToPortfolioTests@44ebcd03]" started-at="2019-11-22T12:47:50Z" name="setup" finished-at="2019-11-22T12:47:50Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateNoteToPortfolio()[pri:0, instance:com.portfolio.testCases.UpdateNoteToPortfolioTests@44ebcd03]" started-at="2019-11-22T12:47:50Z" name="updateNoteToPortfolio" finished-at="2019-11-22T12:47:52Z" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNoteToPortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.UpdateNoteToPortfolioTests@44ebcd03]" started-at="2019-11-22T12:47:52Z" name="printLog" finished-at="2019-11-22T12:47:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.UpdateNoteToPortfolioTests -->
+      <class name="com.portfolio.testCases.GetSurveyByPortfolioIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetSurveyByPortfolioIdTests@71809907]" started-at="2019-11-22T12:47:19Z" name="setup" finished-at="2019-11-22T12:47:19Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getSurveyByPortfolio()[pri:0, instance:com.portfolio.testCases.GetSurveyByPortfolioIdTests@71809907]" started-at="2019-11-22T12:47:19Z" name="getSurveyByPortfolio" finished-at="2019-11-22T12:47:26Z" duration-ms="6430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSurveyByPortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetSurveyByPortfolioIdTests@71809907]" started-at="2019-11-22T12:47:26Z" name="printLog" finished-at="2019-11-22T12:47:26Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetSurveyByPortfolioIdTests -->
+      <class name="com.portfolio.testCases.UpdatePortfoliobyIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.UpdatePortfoliobyIdTests@4466af20]" started-at="2019-11-22T12:48:31Z" name="setup" finished-at="2019-11-22T12:48:31Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updatePortfolioById()[pri:0, instance:com.portfolio.testCases.UpdatePortfoliobyIdTests@4466af20]" started-at="2019-11-22T12:48:31Z" name="updatePortfolioById" finished-at="2019-11-22T12:48:33Z" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePortfolioById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.UpdatePortfoliobyIdTests@4466af20]" started-at="2019-11-22T12:48:33Z" name="printLog" finished-at="2019-11-22T12:48:33Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.UpdatePortfoliobyIdTests -->
+      <class name="com.portfolio.testCases.UpdatePortfolioSubsetByIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.UpdatePortfolioSubsetByIdTests@7b9a4292]" started-at="2019-11-22T12:48:43Z" name="setup" finished-at="2019-11-22T12:48:43Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updatePortfolioSubsetById()[pri:0, instance:com.portfolio.testCases.UpdatePortfolioSubsetByIdTests@7b9a4292]" started-at="2019-11-22T12:48:43Z" name="updatePortfolioSubsetById" finished-at="2019-11-22T12:48:45Z" duration-ms="1680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePortfolioSubsetById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.UpdatePortfolioSubsetByIdTests@7b9a4292]" started-at="2019-11-22T12:48:45Z" name="printLog" finished-at="2019-11-22T12:48:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.UpdatePortfolioSubsetByIdTests -->
+      <class name="com.portfolio.testCases.RegisterPortfolioTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.RegisterPortfolioTests@32eff876]" started-at="2019-11-22T12:47:13Z" name="setup" finished-at="2019-11-22T12:47:13Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerPortfolio()[pri:0, instance:com.portfolio.testCases.RegisterPortfolioTests@32eff876]" started-at="2019-11-22T12:47:13Z" name="registerPortfolio" finished-at="2019-11-22T12:47:16Z" duration-ms="2299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.RegisterPortfolioTests@32eff876]" started-at="2019-11-22T12:47:16Z" name="printLog" finished-at="2019-11-22T12:47:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.RegisterPortfolioTests -->
+      <class name="com.portfolio.testCases.GetPortfolioDocumentByIdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.GetPortfolioDocumentByIdTests@4567f35d]" started-at="2019-11-22T12:47:55Z" name="setup" finished-at="2019-11-22T12:47:55Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getPortfolioDocumentById()[pri:0, instance:com.portfolio.testCases.GetPortfolioDocumentByIdTests@4567f35d]" started-at="2019-11-22T12:47:55Z" name="getPortfolioDocumentById" finished-at="2019-11-22T12:47:57Z" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortfolioDocumentById -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.GetPortfolioDocumentByIdTests@4567f35d]" started-at="2019-11-22T12:47:57Z" name="printLog" finished-at="2019-11-22T12:47:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.GetPortfolioDocumentByIdTests -->
+      <class name="com.portfolio.testCases.AddProjectsToPortfolioTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.portfolio.testCases.AddProjectsToPortfolioTests@4f18837a]" started-at="2019-11-22T12:48:00Z" name="setup" finished-at="2019-11-22T12:48:00Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProjectsToPortfolio()[pri:0, instance:com.portfolio.testCases.AddProjectsToPortfolioTests@4f18837a]" started-at="2019-11-22T12:48:00Z" name="addProjectsToPortfolio" finished-at="2019-11-22T12:48:04Z" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProjectsToPortfolio -->
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.portfolio.testCases.AddProjectsToPortfolioTests@4f18837a]" started-at="2019-11-22T12:48:04Z" name="printLog" finished-at="2019-11-22T12:48:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLog -->
+      </class> <!-- com.portfolio.testCases.AddProjectsToPortfolioTests -->
+    </test> <!-- PortfolioAPITest -->
+    <test started-at="2019-11-22T07:19:01Z" name="FinalAPITest" finished-at="2019-11-22T07:19:02Z" duration-ms="1624">
+      <class name="com.users.testCases.LogoutTestClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.users.testCases.LogoutTestClass@6572421]" started-at="2019-11-22T12:49:01Z" name="setup" finished-at="2019-11-22T12:49:01Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoutTest()[pri:0, instance:com.users.testCases.LogoutTestClass@6572421]" started-at="2019-11-22T12:49:01Z" name="logoutTest" finished-at="2019-11-22T12:49:02Z" duration-ms="1574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.LogoutTestClass@4445629]" started-at="2019-09-11T17:30:05Z" name="printLog" finished-at="2019-09-11T17:30:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printLog()[pri:0, instance:com.users.testCases.LogoutTestClass@6572421]" started-at="2019-11-22T12:49:02Z" name="printLog" finished-at="2019-11-22T12:49:02Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLog -->

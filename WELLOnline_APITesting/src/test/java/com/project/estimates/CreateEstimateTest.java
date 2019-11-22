@@ -50,8 +50,6 @@ public class CreateEstimateTest extends TestBase {
 		//Add array to json payload object
 		updateData.put("projects", projArr);
 		String jsonString = updateData.toJSONString();
-		
-		System.out.println("final json string"+jsonString);
 		res =
 				given()
 				.contentType("application/json")
@@ -71,5 +69,7 @@ public class CreateEstimateTest extends TestBase {
 		ExcelParserUtils.setCellData(loginUserfile_path, estimateSheet, 1, 5, estimateId);
 		
 	}
+	
+
 
 }
