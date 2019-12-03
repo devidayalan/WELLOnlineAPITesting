@@ -31,8 +31,7 @@
 			<class name="com.wellv1.project.GetV1ProjectById" />
 			<class name="com.wellv1.project.CreateV1EstimateTest" />
 			<class name="com.wellv1.project.GetV1EstimateById" />
-			<class name="com.wellv1.project.UpdateV1EstimateTest" />
-			<!-- <class name="com.wellv1.project.ValidateV1EstimateTest" /> -->
+			 <class name="com.wellv1.project.ValidateV1EstimateTest" />
 		</classes>
 	</test>
 	<test name="EstimatesAPITest" preserve-order="true" >
@@ -41,8 +40,8 @@
 			<class name="com.project.estimates.GetEstimateById" />
 			<class name="com.project.estimates.UpdateEstimateTest" />
 			<class name="com.project.estimates.GetEstimatePDFExport" />
-			<!--  <class name="com.project.estimates.ValidateEstimateTests" />
-			<class name="com.project.estimates.AssertEstimateSummary" />-->
+			 <class name="com.project.estimates.ValidateEstimateTests" />
+			<class name="com.project.estimates.AssertEstimateSummary" />
 		</classes>
 	</test>
 	<test name="TeamAPITest" preserve-order="true" >
@@ -50,7 +49,7 @@
 			<class name="com.project.testCases.InviteProjectMemberTest" />
 			<class name="com.project.testCases.AssertInvitedProjectMemberPrivileges" />
 			<class name="com.project.testCases.GetProjectMembersTest" />
-			<!-- <class name="com.project.testCases.DetachProjectMemberTest" /> -->
+			 <class name="com.project.testCases.DetachProjectMemberTest" />
 		</classes>
 	</test>
 	<test name="ProjectsAPITest" preserve-order="true" parallel="none" >
