@@ -42,7 +42,7 @@ public class UpdateNoteToPortfolioTests extends TestBase {
 		.when()
 				.put("portfolio/{portfolio_id}/note/{note_id}")
 		.then()
-				//.statusCode(200)
+				.statusCode(200)
 				.log().all()
 				.extract().response();
 	}

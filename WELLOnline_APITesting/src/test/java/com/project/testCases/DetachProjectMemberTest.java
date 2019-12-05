@@ -26,7 +26,7 @@ public class DetachProjectMemberTest extends TestBase {
 				.then()
 						
 						.log().body()
-						//.statusCode(204)
+						.statusCode(204)
 						.extract().response();
 		
 	}

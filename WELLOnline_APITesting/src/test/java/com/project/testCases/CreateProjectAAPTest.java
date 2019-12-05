@@ -92,7 +92,7 @@ public class CreateProjectAAPTest extends TestBase {
 				.when()
 						.post("aap/create")
 				.then()
-						//.statusCode(STATUS_200)
+						.statusCode(STATUS_200)
 						.body("any { it.key == 'id' }", is(notNullValue())) 
 						.log().all()
 						.extract().response();

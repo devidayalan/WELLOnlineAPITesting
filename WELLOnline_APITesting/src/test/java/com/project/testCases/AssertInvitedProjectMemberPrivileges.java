@@ -62,7 +62,7 @@ public class AssertInvitedProjectMemberPrivileges  extends TestBase {
 			.when()
 					.post("admin/project-note")
 			.then()
-					//.statusCode(200)
+					.statusCode(200)
 					.extract().response();
 			
 		}

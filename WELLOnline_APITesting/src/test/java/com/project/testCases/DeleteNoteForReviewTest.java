@@ -15,9 +15,7 @@ public class DeleteNoteForReviewTest extends TestBase {
 	public void deleteNoteForReview() throws IOException {
 		
 		projectId = ExcelParserUtils.getSingleCellData(loginUserfile_path, UsersSheet, "ProjectId", 2);
-		System.out.println("projectid is"+projectId);
 		reviewId = ExcelParserUtils.getSingleCellData(loginUserfile_path, UsersSheet, "reviewId", 2);
-		System.out.println("reviewId is"+reviewId);
 		String noteId =  ExcelParserUtils.getSingleCellData(loginUserfile_path, UsersSheet, "noteId", 2);
 		res =
 				given()
@@ -32,7 +30,7 @@ public class DeleteNoteForReviewTest extends TestBase {
 				.then()
 						
 						.log().body()
-						//.statusCode(200)
+						.statusCode(200)
 						.extract().response();
 		
 		

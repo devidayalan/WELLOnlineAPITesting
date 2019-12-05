@@ -16,7 +16,6 @@ import com.common.base.TestBase;
 import com.common.utils.ExcelParserUtils;
 import com.common.utils.GenerateRandomTestDataUtils;
 
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class EstimateV1Validator extends TestBase {

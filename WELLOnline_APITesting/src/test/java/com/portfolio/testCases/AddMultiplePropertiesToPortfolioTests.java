@@ -53,7 +53,6 @@ public class AddMultiplePropertiesToPortfolioTests extends TestBase {
 		for(int i = 0; i<value;i++) {
 			
 			String id = res.path("ids["+i+"]").toString();
-			System.out.println("id is"+id);
 			int j = i+1;
 			ExcelParserUtils.setCellData(loginUserfile_path, portfolioSheet, +j, 13, id);
 		}
