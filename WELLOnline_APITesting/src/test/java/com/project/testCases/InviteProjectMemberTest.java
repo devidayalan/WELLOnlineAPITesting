@@ -15,7 +15,7 @@ import com.common.utils.ExcelParserUtils;
 public class InviteProjectMemberTest extends TestBase{
 	
 	@SuppressWarnings("unchecked")
-	//@Test
+	@Test
 	public void inviteMemberAsProjectMember() throws IOException {
 		
 		JSONObject updateData = new JSONObject();
@@ -39,7 +39,7 @@ public class InviteProjectMemberTest extends TestBase{
 				.then()
 						
 						.log().body()
-						.statusCode(401)
+						.statusCode(403)
 						.extract().response();
 	}
 	
@@ -87,8 +87,8 @@ public class InviteProjectMemberTest extends TestBase{
 					.then()
 							.statusCode(STATUS_200)
 							.log().body()
-							.body("id[1]", Matchers.equalTo((Integer.parseInt(ExcelParserUtils.getSingleCellData(loginUserfile_path, emailSheet, "userid", 4)))))
-							.body("pivot[1].project_id", Is.is((Integer.parseInt(projectId))))
+							.body("id[0]", Matchers.equalTo((Integer.parseInt(ExcelParserUtils.getSingleCellData(loginUserfile_path, emailSheet, "userid", 4)))))
+							.body("pivot[0].project_id", Is.is((Integer.parseInt(projectId))))
 							.extract().response();
 	}
 }

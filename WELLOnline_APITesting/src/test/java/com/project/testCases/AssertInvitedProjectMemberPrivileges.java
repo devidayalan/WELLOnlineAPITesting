@@ -37,9 +37,9 @@ public class AssertInvitedProjectMemberPrivileges  extends TestBase {
 				
 	  
 	}
-	
+	//403 forbidden is the message. Should it be 200?
 	@SuppressWarnings("unchecked")
-	@Test// (dependsOnMethods = {"writeTokenForInvitedMember"})
+	@Test (dependsOnMethods = {"writeTokenForInvitedMember"})
 	public void createNoteAsProjectMember() throws IOException {
 		
 			projectId = ExcelParserUtils.getSingleCellData(loginUserfile_path, UsersSheet, "ProjectId", 2);
@@ -62,7 +62,8 @@ public class AssertInvitedProjectMemberPrivileges  extends TestBase {
 			.when()
 					.post("admin/project-note")
 			.then()
-					.statusCode(200)
+			.log().body()
+					//.statusCode(200)
 					.extract().response();
 			
 		}

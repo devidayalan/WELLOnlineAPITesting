@@ -46,7 +46,7 @@ public class EstimateV1Validator extends TestBase {
 		project_Type = projectType;
 		String json = constructJSON(chkVal);
 		estimateId = getEstimateID(json);
-	System.out.println("estimateId"+estimateId);
+	//System.out.println("estimateId"+estimateId);
 	//estimateId = "1472";
 		Response response = callAPI(estimateId);
 		validateResponse(response,chkVal);
@@ -110,7 +110,7 @@ public class EstimateV1Validator extends TestBase {
 						.post("well-v1/estimate")
 				.then()
 						
-						.log().body()
+						//.log().body()
 						.statusCode(STATUS_200)
 						.body("any { it.key == 'id' }", is(notNullValue())) 
 						.extract().response();
