@@ -47,8 +47,7 @@
 		<classes>
 			<class name="com.project.testCases.InviteProjectMemberTest" />
 			<class name="com.project.testCases.AssertInvitedProjectMemberPrivileges" />
-			<class name="com.project.testCases.GetProjectMembersTest" />
-			 <class name="com.project.testCases.DetachProjectMemberTest" />
+			<class name="com.project.testCases.DetachProjectMemberTest" />
 		</classes>
 	</test>
 	<test name="ProjectsAPITest" preserve-order="true" parallel="none" >
@@ -60,6 +59,7 @@
 			<class name="com.project.scorecard.AttachPartsToScorecardTests" />
 			<class name="com.project.scorecard.GetScorecardByPhase" />
 			<class name="com.project.testCases.RegisterProjectTest" />
+			<class name="com.project.testCases.GetProjectMembersTest" />
 			<class name="com.project.testCases.UpdateProjectByProjectId" />
 			<class name="com.project.testCases.GetProjectInvoiceStatusTest" />
 			<class name="com.project.scorecard.AddNoteToScorecardTest" />
