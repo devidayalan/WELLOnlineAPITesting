@@ -82,11 +82,13 @@ public class TestBase {
 	public String estimateId;
 	public String v1EstimateId;
 	public String projectsIdForEstimate;
+	public String env;
 	
 	@BeforeClass
 	public void setup() throws IOException {
-
-		RestAssured.baseURI = "https://stg-v2-api.wellcertified.com/api/";
+		
+		env = ExcelParserUtils.getSingleCellData(loginUserfile_path, sheetName, "ENV", 2);
+		RestAssured.baseURI = env;
 	
 		 Object className = this.getClass().getName(); 
 		 logger = LogManager.getLogger((String)className);
