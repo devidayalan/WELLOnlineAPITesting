@@ -13,6 +13,5 @@
 			<class name="com.autentication.testCases.ForgotPassAPITest" />
 		</classes>
 	</test>
-
 </suite>
 		
