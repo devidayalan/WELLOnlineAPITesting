@@ -22,7 +22,7 @@ public class SignInAPITest extends TestBase {
 	
 	
 
-	@Test (dataProvider = "ValidData",dataProviderClass = CustomDataProvider.class)
+	//@Test (dataProvider = "ValidData",dataProviderClass = CustomDataProvider.class)
 	public void testValidEmailPassword(String email, String password) throws IOException{
 			res = given()
 	       .param("email", email)
@@ -85,7 +85,7 @@ public class SignInAPITest extends TestBase {
 	}
 	
 	
-	@Test (dataProvider = "InvalidData",dataProviderClass = CustomDataProvider.class)
+	//@Test (dataProvider = "InvalidData",dataProviderClass = CustomDataProvider.class)
 	public void testInvalidEmail(String email, String password) {
 		
 				res = given()
