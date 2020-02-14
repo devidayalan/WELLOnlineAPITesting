@@ -20,10 +20,8 @@
 			<class name="com.users.testCases.GetUserIdInfo" />
 			<class name="com.users.testCases.UpdatePasswordForUserTest" />
 			<class name="com.users.testCases.UpdateUserIdTest" />
-			
 		</classes>
 	</test>
-
 	<test name="V1ProjectsAPITest" preserve-order="true" >
 		<classes>
 			<class name="com.wellv1.project.CreateV1ProjectTest" />
