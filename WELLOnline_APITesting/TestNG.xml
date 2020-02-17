@@ -14,5 +14,6 @@
 			<!-- <class name="com.autentication.testCases.ResetPasswordAPITest" /> -->
 		</classes>
 	</test>
+	
 </suite>
 		
